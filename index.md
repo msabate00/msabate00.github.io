@@ -8,6 +8,18 @@ Llevo programando prácticamente desde los 14 años por cuenta propia, me empece
 Soy bastante autodidacta, desde que empece a aprender por cuenta propia a programar llevo haciendo videojuegos desde entonces. En mi primera Game Jam quede entro los 150 primeros de 15k participantes.
 Espero seguir aprendiendo más cosas a lo largo de los años...
 
+# Experiencia Laboral
+
+### Desarrollador Web
+
+Actualmente estoy trabajando en [IMAP Internet Marketing](imapbcn.com) como desarrollador web.
+
+
+### Técnico Informático
+
+Curse practicas FCT en [Escola Superior de Disseny ESDi](esdi.es) como asistente informático.
+
+
 [Link to another page](./another-page.html).
 
 There should be whitespace between paragraphs.
