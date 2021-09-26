@@ -2,6 +2,8 @@
 layout: default
 ---
 
+# Introducción
+
 Llevo programando prácticamente desde los 14 años por cuenta propia, me empece a formar finalmente en Desarrollo de Aplicaciones Web en 2019 y actualmente estoy titulándome en Desarrollo de Aplicaciones Multiplataforma.
 Soy bastante autodidacta, desde que empece a aprender por cuenta propia a programar llevo haciendo videojuegos desde entonces. En mi primera Game Jam quede entro los 150 primeros de 15k participantes.
 Espero seguir aprendiendo más cosas a lo largo de los años...
