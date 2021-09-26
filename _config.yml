@@ -1,6 +1,6 @@
-title: Martí Sabaté Miranda
+title: Martí Sabaté
 logo: /assets/img/logo.png
 description: Página Personal 
-show_downloads: true
+show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
