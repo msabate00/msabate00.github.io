@@ -12,12 +12,12 @@ Espero seguir aprendiendo más cosas a lo largo de los años...
 
 ### Desarrollador Web
 
-Actualmente estoy trabajando en [IMAP Internet Marketing](imapbcn.com) como desarrollador web.
+Actualmente estoy trabajando en [IMAP Internet Marketing](https://imapbcn.com) como desarrollador web.
 
 
 ### Técnico Informático
 
-Curse practicas FCT en [Escola Superior de Disseny ESDi](esdi.es) como asistente informático.
+Curse practicas FCT en [Escola Superior de Disseny ESDi](https://esdi.es) como asistente informático.
 
 
 [Link to another page](./another-page.html).
