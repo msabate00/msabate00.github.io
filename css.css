@@ -7,6 +7,9 @@ html,body {
 p, h1, h2, h3, h4, h5, h6, span, a{
     color: white;
 }
+.discrete{
+    color: #939393;
+}
 .fa{
     color: white;
     font-size: 30px;
