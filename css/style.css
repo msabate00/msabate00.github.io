@@ -702,3 +702,37 @@ textarea {
   to {
     opacity: 0;
     top: 27px; } }
+
+
+.proyect{
+  position: relative;
+}
+.proyect>video{
+  width: 100%;
+    height: 100%;
+    margin-bottom: -5px;
+}
+
+.proyect .info{
+  
+  left: 0px;
+  bottom: 0px;
+  position: absolute;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 18px;
+  color: rgba(255,255,255,1);
+  width: 100%;
+  height: 100%;
+
+  transition: 0.3s;
+  opacity: 1;
+}
+.proyect .info:hover{
+  opacity: 0;
+}
+.proyect .info .proyectName{
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
