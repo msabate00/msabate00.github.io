@@ -736,3 +736,19 @@ textarea {
   bottom: 10px;
   left: 10px;
 }
+
+
+
+/*NUEVA*/
+.header{
+  background-color: #0f0f0f;
+}
+.header__link, .header__logo-sub{
+  color: white;
+  text-decoration: none;
+}
+
+.home-hero{
+  background: linear-gradient(to right, rgba(11, 12, 12, 0.8), rgba(23, 23, 24, 0.8)), url(../assets/svg/common-bg.svg);
+  background: linear-gradient(to right, rgba(11, 12, 12, 0.8), rgba(23, 23, 24, 0.8)), url(../assets/svg/common-bg.svg);
+}
