@@ -780,15 +780,18 @@ textarea {
   background: linear-gradient(to right, rgba(11, 12, 12, 0.8), rgba(23, 23, 24, 0.8)), url(../assets/svg/common-bg.svg);
 }
 
-.home-hero__cta>a{
-  background-color: rgba(255, 255, 255, 0.473);
-  color: var(--main_black_color);
-  font-size: 16px;
-  padding: 10px 30px;
-  transition: 0.3s;
+.home-hero__cta>a, .contactB{
+  background-color: rgba(255, 255, 255, 0.473) !important;
+  color: var(--main_black_color) !important;
+  font-size: 16px !important;
+  padding: 10px 30px !important;
+  transition: 0.3s !important;
 }
-.home-hero__cta>a:hover{
-  background-color: rgba(255, 255, 255, 0.173);
+.contactB{
+  color: var(--main_white_color) !important;
+}
+.home-hero__cta>a:hover, .contactB:hover{
+  background-color: rgba(255, 255, 255, 0.173) !important;
 }
 
 /*PROYECTOS*/
