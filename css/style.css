@@ -823,7 +823,7 @@ textarea {
 }
 .wrapper img:hover{
   z-index: 2;
-  transform: scale(1.2);
+  transform: scale(1.6);
 }
 
 @media(max-width: 1200px){
