@@ -819,20 +819,31 @@ textarea {
   justify-items: center;
   align-items: center;
 }
-.wrapper img{
-  z-index: 1;
+
+.wrapper a {
   grid-column: span 2;
+  z-index: 1;
+  text-decoration: none; /* Opcional: para quitar subrayado */
+}
+
+.wrapper a:nth-child(7n + 1) {
+  grid-column: 2 / span 2;
+}
+
+.wrapper a img {
   max-width: 100%;
   margin-bottom: -145px;
   clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0% 50%);
   transform: scale(1);
   transition: all 0.3s;
+  display: block;
 }
-.wrapper img:nth-child(7n + 1){
-  grid-column: 2 / span 2;
-}
-.wrapper img:hover{
+
+.wrapper a:hover {
   z-index: 2;
+}
+
+.wrapper a:hover img {
   transform: scale(1.6);
 }
 
