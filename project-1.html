@@ -18,84 +18,6 @@
       body{
         background-color: var(--main_black_color);
       }
-      .project-main-container {
-        max-width: 1200px;
-        margin: 11rem auto;
-        padding: 0 20px;
-      }
-      .project-main-image {
-        width: 100%;
-        height: 400px;
-        background-color: var(--main_black2_color);
-        border-radius: 8px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 1.5rem;
-        border: 1px solid #dee2e6;
-      }
-      .project-details-card {
-        background-color: var(--main_black2_color);
-        border-radius: 8px;
-        padding: 1.5rem;
-        border: 1px solid #dee2e6;
-        margin-bottom: 1.5rem;
-      }
-      .tech-badge {
-        background-color: var(--main_black2_color);
-        color: #495057;
-        padding: 0.35em 0.65em;
-        border-radius: 50rem;
-        font-size: 0.75em;
-        font-weight: 600;
-        margin-right: 0.5rem;
-        margin-bottom: 0.5rem;
-        display: inline-block;
-      }
-      .screenshot-thumb {
-        width: 100px;
-        height: 100px;
-        background-color: #f8f9fa;
-        border-radius: 4px;
-        border: 1px solid #dee2e6;
-        margin-right: 0.5rem;
-        margin-bottom: 0.5rem;
-      }
-      .project-navigation {
-        border-top: 1px solid #dee2e6;
-        padding-top: 1.5rem;
-        margin-top: 2rem;
-      }
-      /* Estilos para botones */
-      .btn-primary {
-        background-color: var(--accent-color);
-        border-color: var(--accent-color);
-        color: #121212;
-        font-weight: 600;
-      }
-      
-      .btn-outline-secondary {
-        border-color: var(--text-secondary);
-        color: var(--text-secondary);
-      }
-      
-      .btn-outline-secondary:hover {
-        background-color: var(--text-secondary);
-        color: var(--secondary-bg-color);
-      }
-      
-      /* Estilos para texto */
-      h1, h2, h3, h4 {
-        color: var(--text-primary);
-      }
-      
-      p, li {
-        color: var(--text-secondary);
-      }
-      
-      .text-muted {
-        color: var(--text-secondary) !important;
-      }
     </style>
   </head>
   <body>
@@ -201,7 +123,7 @@
         </div>
         
         <!-- Columna derecha - Panel de detalles -->
-        <div class="col-lg-4">
+        <div class="col-lg-4" style="margin-top: 4.5rem;"> 
           <div class="project-details-card">
             <h4>Project Details</h4>
             <p><strong>Role:</strong> Lead Developer & Designer</p>
@@ -218,11 +140,12 @@
           
           <div class="project-details-card">
             <h4>Screenshots</h4>
-            <div class="d-flex flex-wrap">
-              <div class="screenshot-thumb"></div>
-              <div class="screenshot-thumb"></div>
-              <div class="screenshot-thumb"></div>
-              <div class="screenshot-thumb"></div>
+            <div class="d-flex flex-wrap screenshot-gallery">
+              <!-- Reemplaza estas con tus imágenes reales -->
+              <div class="screenshot-thumb" onclick="openLightbox('./assets/sample1.jpg')"></div>
+              <div class="screenshot-thumb" onclick="openLightbox('./assets/sample2.jpg')"></div>
+              <div class="screenshot-thumb" onclick="openLightbox('./assets/sample3.jpg')"></div>
+              <div class="screenshot-thumb" onclick="openLightbox('./assets/sample4.jpg')"></div>
             </div>
           </div>
           
@@ -247,6 +170,77 @@
       </div>
     </main>
 
+     <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+      <span class="close-lightbox" onclick="closeLightbox()">&times;</span>
+      <div class="lightbox-content">
+        <img id="lightbox-img" src="" alt="Screenshot">
+      </div>
+      <div class="lightbox-nav">
+        <button onclick="changeImage(-1)">&#10094;</button>
+        <button onclick="changeImage(1)">&#10095;</button>
+      </div>
+    </div>
+
     <script src="./index.js"></script>
+    <script>
+      // Lightbox functionality
+      let currentImageIndex = 0;
+      const images = [
+        './assets/sample1.jpg',
+        './assets/sample2.jpg',
+        './assets/sample3.jpg',
+        './assets/sample4.jpg'
+      ];
+      
+      function openLightbox(imageSrc) {
+        const lightbox = document.getElementById('lightbox');
+        const lightboxImg = document.getElementById('lightbox-img');
+        
+        currentImageIndex = images.indexOf(imageSrc);
+        lightboxImg.src = imageSrc;
+        lightbox.style.display = 'flex';
+        document.body.style.overflow = 'hidden'; // Prevent scrolling
+      }
+      
+      function closeLightbox() {
+        document.getElementById('lightbox').style.display = 'none';
+        document.body.style.overflow = 'auto'; // Re-enable scrolling
+      }
+      
+      function changeImage(n) {
+        currentImageIndex += n;
+        
+        // Wrap around if at ends
+        if (currentImageIndex >= images.length) {
+          currentImageIndex = 0;
+        } else if (currentImageIndex < 0) {
+          currentImageIndex = images.length - 1;
+        }
+        
+        document.getElementById('lightbox-img').src = images[currentImageIndex];
+      }
+      
+      // Close lightbox when clicking outside the image
+      document.getElementById('lightbox').addEventListener('click', function(e) {
+        if (e.target === this) {
+          closeLightbox();
+        }
+      });
+      
+      // Keyboard navigation
+      document.addEventListener('keydown', function(e) {
+        const lightbox = document.getElementById('lightbox');
+        if (lightbox.style.display === 'flex') {
+          if (e.key === 'Escape') {
+            closeLightbox();
+          } else if (e.key === 'ArrowLeft') {
+            changeImage(-1);
+          } else if (e.key === 'ArrowRight') {
+            changeImage(1);
+          }
+        }
+      });
+    </script>
   </body>
 </html>
