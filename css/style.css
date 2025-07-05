@@ -756,6 +756,12 @@ textarea {
   --main_black2_color: #181717;
   --main_white_color: white;
   --main_white2_color: rgb(204, 204, 204);
+  --main-bg-color: #121212;      /* Fondo principal oscuro */
+  --secondary-bg-color: #1E1E1E; /* Tarjetas y elementos secundarios */
+  --accent-color: #BB86FC;       /* Color de acento morado */
+  --text-primary: #E1E1E1;       /* Texto principal */
+  --text-secondary: #A0A0A0;     /* Texto secundario */
+  --border-color: #333333;       /* Bordes */
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
