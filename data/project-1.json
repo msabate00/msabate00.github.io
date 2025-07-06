@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "title": "Nightmare Escape | Martí Sabaté",
+    "description": "Juego de terror desarrollado con Unity por Martí Sabaté"
+  },
+  "content": {
+    "title": "Nightmare Escape",
+    "about": [
+      "Un juego de terror en primera persona donde debes escapar de una mansión encantada.",
+      "Desarrollado como proyecto final del grado en desarrollo de videojuegos."
+    ],
+    "features": [
+      "Sistema de iluminación dinámica",
+      "IA enemiga con patrones de comportamiento complejos",
+      "Sistema de puzzles integrado en la narrativa"
+    ],
+    "media": {
+      "type": "youtube",
+      "url": "pNp_OPTwnTo",
+      "thumbnail": "./assets/projects/nightmare-escape/thumbnail.jpg"
+    },
+    "details": {
+      "role": "Programador y Diseñador",
+      "date": "Mayo 2023",
+      "category": "Horror Game",
+      "teamSize": "5 personas",
+      "duration": "6 meses"
+    },
+    "links": {
+      "webpage": "https://nightmare-escape.com",
+      "github": "https://github.com/martisabate/nightmare-escape",
+      "download": "https://nightmare-escape.com/download"
+    },
+    "technologies": [
+      {"name": "Unity", "icon": "fab fa-unity"},
+      {"name": "C#", "icon": "fas fa-code"},
+      {"name": "Blender", "icon": "fas fa-cube"},
+      {"name": "FMOD", "icon": "fas fa-music"}
+    ],
+    "screenshots": [
+      "./assets/projects/nightmare-escape/screen1.jpg",
+      "./assets/projects/nightmare-escape/screen2.jpg",
+      "./assets/projects/nightmare-escape/screen3.jpg"
+    ],
+    "learnings": [
+      "Implementación de IA con máquinas de estados finitos",
+      "Optimización de shaders para Unity",
+      "Integración de sistema de audio FMOD"
+    ],
+    "navigation": {
+      "previous": "project-0",
+      "next": "project-2"
+    }
+  }
+}
