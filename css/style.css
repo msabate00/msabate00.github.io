@@ -862,15 +862,27 @@ textarea {
         padding: 0 20px;
       }
       .project-main-image {
-        width: 100%;
-        height: 400px;
-        background-color: var(--main_black2_color);
-        border-radius: 8px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
         margin-bottom: 1.5rem;
+        border-radius: 8px;
+        overflow: hidden;
         border: 1px solid var(--border-color);
+      }
+
+      .play-button {
+        cursor: pointer;
+        opacity: 0.9;
+        transition: transform 0.3s, opacity 0.3s;
+        width: 80px;
+        height: 80px;
+      }
+      
+      .play-button:hover {
+        transform: scale(1.1);
+        opacity: 1;
+      }
+      
+      .play-button svg {
+        filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));
       }
       .project-details-card {
         background-color: var(--main_black2_color);
