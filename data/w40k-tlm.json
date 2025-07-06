@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "title": "W40K - The Last Marine | Martí Sabaté",
+    "description": "Video game developed in the Project 3 course at CITM (UPC)."
+  },
+  "content": {
+    "title": "Warhammer 40k - The Last Marine",
+    "about": [
+      "You are the last Space Marine. Unleash your strength and courage on the battlefield to eliminate any enemy that stands in your way. Will you be able to reach the end of this story using your entire arsenal?",
+      "This project is our final course work, developed collaboratively by the entire class using our own game engine. Through months of dedication and teamwork, dividing ourselves into production, design, art, and programming departments, we were able to create Warhammer 40,000: The Last Marine in 4 months.<br><br>I was the lead and responsible for the programming department, overseeing a total of 17 programmers, divided into engine and gameplay. We used our own engine, <a href='https://burned-games.github.io/Coffee-Engine/' target='_blank'>Coffee Engine</a>.[<a href='https://github.com/Burned-Games/Coffee-Engine' target='_blank'>GitHub</a>]"
+    ],
+    "features": [
+      "AI with inheritance and FSM (Finite State Machine) with complex behaviors",
+      "2 bosses, and 8 enemies",
+      "Own Engine",
+      "Great interaction with the environment",
+      "Upgrade and trading systems",
+      "Save system"
+    ],
+    "media": {
+      "type": "youtube",
+      "url": "pNp_OPTwnTo"
+    },
+    "details": {
+      "role": "Lead Programmer",
+      "date": "June 2025",
+      "category": "Diablo-like game",
+      "teamSize": "39 personas",
+      "duration": "4 meses"
+    },
+    "links": {
+      "webpage": "https://burned-games.github.io/",
+      "github": "https://github.com/Burned-Games/W40K-TLM",
+      "download": "https://github.com/Burned-Games/W40K-TLM/releases/download/v1.0/W40K-TLM-v1.5-windows.zip"
+    },
+    "technologies": [
+      {"name": "SDL2", "icon": "fas fa-window-restore"},
+      {"name": "OpenGL", "icon": "fas fa-microchip"},
+      {"name": "LUA", "icon": "fas fa-code"},
+      {"name": "C++", "icon": "fas fa-code"},
+      {"name": "Blender", "icon": "fas fa-cube"},
+      {"name": "Wwise", "icon": "fas fa-music"}
+    ],
+    "screenshots": [
+      "./assets/projects/w40k-tlm/mainMenu.webp",
+      "./assets/projects/w40k-tlm/gameplay.webp",
+      "./assets/projects/w40k-tlm/onEngine.webp"
+      
+    ],
+    "learnings": [
+      "Leadership and management of a large department",
+      "Complex subsystems within complex systems",
+      "Maximum optimization",
+      "Learning Lua from scratch and reinforcement in C++"
+    ],
+    "navigation": {
+      "previous": "project-0",
+      "next": "project-2"
+    }
+  }
+}
