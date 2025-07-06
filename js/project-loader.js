@@ -72,12 +72,12 @@ function generateProjectHTML(projectData) {
 function generateMediaHTML(media) {
   if (media.type === 'youtube') {
     return `
-      <div class="video-container ratio ratio-16x9 mb-4">
+      <div class="project-main-image video-container ratio ratio-16x9 mb-4">
 
 
        
 
-        <img src="https://img.youtube.com/vi/${media.url}/maxresdefault.jpg" alt="Video thumbnail" class="video-thumbnail">
+        <img src="https://img.youtube.com/vi/${media.url}/maxresdefault.jpg" alt="Video thumbnail" class="img-fluid">
         <div class="play-overlay">
           <div class="play-button position-absolute top-50 start-50 translate-middle">
                 <svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 24 24" fill="var(--accent-color) " style="
@@ -181,7 +181,7 @@ function generateLearnings(learnings) {
 
 function generateNavigation(nav) {
   return `
-    <div class="project-navigation mt-5 pt-4 border-top">
+    <div class="project-navigation">
       <div class="d-flex justify-content-between">
         ${nav.previous ? `
           <a href="project.html?id=${nav.previous}" class="btn btn-outline-secondary">
@@ -218,7 +218,7 @@ function loadYoutubeVideo(videoId) {
   container.innerHTML = `
     <div class="ratio ratio-16x9">
       <iframe 
-        src="https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1&rel=0&modestbranding=1" 
+        src="https://www.youtube.com/embed/${videoId}?autoplay=1&mute=0&rel=0&modestbranding=1" 
         title="Gameplay Video"
         frameborder="0" 
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
