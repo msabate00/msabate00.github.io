@@ -156,8 +156,6 @@ textarea {
   border-radius: 5px;
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
   transition: transform .3s; }
-  .btn:hover {
-    transform: translateY(-3px); }
   .btn--bg {
     padding: 1.5rem 8rem;
     font-size: 2rem; }
@@ -884,6 +882,7 @@ textarea {
       .play-button svg {
         filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));
       }
+      
       .project-details-card {
         background-color: var(--main_black2_color);
         border-radius: 8px;
@@ -1002,7 +1001,7 @@ textarea {
       .btn-custom {
         position: relative;
         overflow: hidden;
-        transition: all 0.4s ease;
+        transition: all 0.4s ease !important;
         border-radius: 8px;
         font-weight: 600;
         display: flex;
@@ -1025,8 +1024,7 @@ textarea {
       .btn-primary:hover {
         background-color: transparent !important;
         color: var(--accent-color) !important;
-        transform: translateY(-3px) !important;
-        box-shadow: 0 10px 20px rgba(187, 134, 252, 0.3) !important;
+        box-shadow: 0 0px 16px rgba(187, 134, 252, 0.3) !important;
       }
       
       .btn-outline-secondary {
@@ -1038,11 +1036,13 @@ textarea {
       .btn-outline-secondary:hover {
         background-color: var(--text-secondary) !important;
         color: var(--main_black_color) !important;
-        transform: translateY(-3px) !important;
-        box-shadow: 0 10px 20px rgba(255, 255, 255, 0.1) !important;
+        box-shadow: 0 0px 16px rgba(255, 255, 255, 0.1) !important;
       }
       
       /* Efecto de onda al hacer clic */
+      .btn-custom:hover{
+        transform: scale(1.05);
+      }
       .btn-custom:after {
         content: "";
         position: absolute;
