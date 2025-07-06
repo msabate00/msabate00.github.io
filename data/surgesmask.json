@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "title": "Sureg's Mask | Martí Sabaté",
+    "description": "2D isometric RPG developed by SouthWest Studios using C++"
+  },
+  "content": {
+    "title": "Sureg's Mask",
+    "about": [
+      "A 2D isometric RPG where the player explores a mysterious dungeon in search of ancient masks with unique powers.",
+      "Developed as a university project at CITM-UPC by a multidisciplinary team of students."
+    ],
+    "features": [
+      "Real-time combat system",
+      "Dungeon with multiple levels and diverse enemy types",
+      "Unlockable masks with unique abilities",
+      "Inventory and journal system"
+    ],
+    "media": {
+      "type": "youtube",
+      "url": "OxNXHbU0uek"
+    },
+    "details": {
+      "role": "Lead Programmer",
+      "date": "December 2024",
+      "category": "2D Isometric RPG",
+      "teamSize": "20 members",
+      "duration": "4 months"
+    },
+    "links": {
+      "webpage": "https://southwest-studios.github.io/Suregs-Mask/",
+      "github": "https://github.com/SouthWest-Studios/Suregs-Mask",
+      "download": "https://github.com/SouthWest-Studios/Suregs-Mask/releases/download/Gold/Suregs.Masks.Installer.exe"
+    },
+    "technologies": [
+      { "name": "C++", "icon": "fas fa-code" },
+      { "name": "Tiled", "icon": "fas fa-layer-group" },
+      { "name": "Custom Engine", "icon": "fas fa-cogs" }
+    ],
+    "screenshots": [
+      "./assets/projects/suregs-mask/screen1.jpg",
+      "./assets/projects/suregs-mask/screen2.jpg",
+      "./assets/projects/suregs-mask/screen3.jpg"
+    ],
+    "learnings": [
+      "Entity-Component-System architecture in C++",
+      "Scene loading and serialization with Tiled",
+      "Designing and balancing RPG combat mechanics"
+    ],
+    "navigation": {
+      "previous": "w40k-tlm",
+      "next": "project-3"
+    }
+  }
+}
