@@ -829,6 +829,20 @@ textarea {
   grid-column: span 2;
   z-index: 1;
   text-decoration: none; /* Opcional: para quitar subrayado */
+  
+}
+
+.wrapper a.project-feature {
+  animation: shadowPulse 3s infinite ease-in-out;
+}
+
+@keyframes shadowPulse {
+  0%, 100% {
+    filter: drop-shadow(0 0 7px #e50914);
+  }
+  50% {
+    filter: drop-shadow(0 0 13px #e50914);
+  }
 }
 
 .wrapper a:nth-child(7n + 1) {
@@ -842,6 +856,8 @@ textarea {
   transform: scale(1);
   transition: all 0.3s;
   display: block;
+  
+  
 }
 
 .wrapper a:hover {
@@ -850,6 +866,8 @@ textarea {
 
 .wrapper a:hover img {
   transform: scale(1.6);
+  box-shadow: 0 0 50px #e50914;
+  
 }
 
 
