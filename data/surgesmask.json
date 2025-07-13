@@ -37,9 +37,11 @@
       { "name": "Custom Engine", "icon": "fas fa-cogs" }
     ],
     "screenshots": [
-      "./assets/projects/suregs-mask/screen1.jpg",
-      "./assets/projects/suregs-mask/screen2.jpg",
-      "./assets/projects/suregs-mask/screen3.jpg"
+      "./assets/projects/suregs-mask/tree.webp",
+      "./assets/projects/suregs-mask/shop.webp",
+      "./assets/projects/suregs-mask/skilltree.webp",
+      "./assets/projects/suregs-mask/inventory.webp",
+      "./assets/projects/suregs-mask/controles.webp"
     ],
     "learnings": [
       "Entity-Component-System architecture in C++",

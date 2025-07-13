@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "title": "Shinobi 1987 | Martí Sabaté",
+    "description": "Recreation of the video game Shinobi (1987) using C++ and SDL2."
+  },
+  "content": {
+    "title": "Shinobi (1987)",
+    "about": [
+      "Shinobi is basically a horizontal scrolling action game, in which the player moves to the right while taking down the enemies in his path, using his shuriken, a ninjato, and special ninja magic. Also an important objective is to rescue the kidnapped ninja children",
+      "Developed as the first project of the Video Game Development degree, using only C++ and SDL2."
+    ],
+    "features": [
+      "1:1 fidelity with the original",
+      "Complete first stage fully recreated",
+      "Ranking system",
+      "Multiple height levels",
+      "Custom collision and UI system"
+    ],
+    "media": {
+      "type": "youtube",
+      "url": "4EI09k3_7mA"
+    },
+    "details": {
+      "role": "Lead Programmer",
+      "date": "June 2023 2023",
+      "category": "Platformer Game",
+      "teamSize": "5 personas",
+      "duration": "4 meses"
+    },
+    "links": {
+      "webpage": "https://msabate00.github.io/NoFurry-Games/",
+      "github": "https://github.com/msabate00/NoFurry-Games",
+      "download": "https://github.com/msabate00/NoFurry-Games/releases/download/Alpha/NoFurryGames_Shinobi_v1.1.zip"
+    },
+    "technologies": [
+      {"name": "C++", "icon": "fas fa-code"},
+      {"name": "SDL2", "icon": "fas fa-gamepad"}
+    ],
+    "screenshots": [
+      "./assets/projects/shinobi/firstLevel.webp",
+      "./assets/projects/shinobi/bossScene.webp",
+      "./assets/projects/shinobi/exampleSpriteSheet.webp",
+      "./assets/projects/shinobi/secondLevelMap.webp"
+
+    ],
+    "learnings": [
+      "First simulation of a real group project",
+      "First serious project without using a game engine",
+      "Recreated techniques used in arcade games",
+      "Learned how to build a custom physics system",
+      "Learned how to develop a custom 2D animation system"
+    ],
+    "navigation": {
+      "previous": "project-0",
+      "next": "surgesmask"
+    }
+  }
+}
