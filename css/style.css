@@ -819,7 +819,7 @@ textarea {
   max-height: 1200px;
   display: grid;
   grid-template-columns: repeat(8,1fr);
-  grid-template-rows: repeat(6,1fr);
+  grid-template-rows: repeat(4,1fr);
   grid-gap: 2vmin;
   justify-items: center;
   align-items: center;
@@ -829,6 +829,7 @@ textarea {
   grid-column: span 2;
   z-index: 1;
   text-decoration: none; /* Opcional: para quitar subrayado */
+  
   
 }
 
@@ -892,8 +893,46 @@ textarea {
 .wrapper a:hover img {
   transform: scale(1.6);
   box-shadow: 0 0 50px #e50914;
-  
+  z-index: 2;
 }
+
+.wrapper a:not(.project-more):hover img {
+
+  filter: brightness(0.6);
+}
+
+
+/* Botón "Ver más" */
+.wrapper a .view-button {
+
+  transform: translate(110%, -50%) scale(1);
+  padding: 8px 16px;
+  font-weight: bold;
+  text-align: center;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  position: absolute;
+  z-index: 3;
+  min-width: 80px;
+  border-radius: 5px;
+  background-color: var(--accent-color) !important;
+  color: white !important;
+  border: 2px solid var(--accent-color) !important;
+}
+.wrapper a .view-button:hover{
+  box-shadow: 0 0px 32px rgba(187, 134, 252, 0.3) !important;
+}
+
+.wrapper a:hover .view-button {
+  opacity: 1;
+}
+
+/* Para el botón especial de "More Projects" */
+.wrapper a.project-more:hover .view-button {
+  background-color: #6919ca;
+}
+
+
 /*PAGINA DE PROYECTOS*/
 .proyectos-container {
     display: grid;
