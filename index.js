@@ -125,4 +125,42 @@ window.addEventListener('mousemove', function(e) {
 });
 
 
+// --- Projects access gate ---
+const PROJECTS_COOKIE = 'projects_access';
+const PROJECTS_KEY = 'aitramkg';
+
+function setCookie(name, value, maxAgeSeconds) {
+  document.cookie = `${name}=${encodeURIComponent(value)}; Max-Age=${maxAgeSeconds}; Path=/; SameSite=Lax`;
+}
+
+function getCookie(name) {
+  const row = document.cookie.split('; ').find(r => r.startsWith(name + '='));
+  return row ? decodeURIComponent(row.split('=').slice(1).join('=')) : null;
+}
+
+const moreProjectsLink = document.querySelector('.project-more');
+if (moreProjectsLink) {
+  moreProjectsLink.addEventListener('click', (e) => {
+    
+    if (getCookie(PROJECTS_COOKIE) === '1') return;
+
+    e.preventDefault();
+
+    const entered = prompt('Enter the password to view the projects:');
+    if (entered === null) return;
+
+    if (entered === PROJECTS_KEY) {
+      setCookie(PROJECTS_COOKIE, '1', 60 * 60 * 24);
+      const href = moreProjectsLink.getAttribute('href') || './projects.html';
+      const target = moreProjectsLink.getAttribute('target');
+
+      if (target === '_blank') window.open(href, '_blank');
+      else window.location.href = href;
+    } else {
+      alert('Incorrect key.');
+    }
+  });
+}
+
+
 

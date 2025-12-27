@@ -5,6 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title id="dynamic-title">All Projects | Martí Sabaté</title>
   <meta name="description" id="dynamic-desc" content="">
+
+  <script>
+    (function () {
+      function getCookie(name) {
+        const row = document.cookie.split('; ').find(r => r.startsWith(name + '='));
+        return row ? decodeURIComponent(row.split('=').slice(1).join('=')) : null;
+      }
+      if (getCookie('projects_access') !== '1') {
+        window.location.replace('./index.html');
+      }
+    })();
+  </script>
   
   <!-- Favicon -->
   <link rel="apple-touch-icon" sizes="180x180" href="./assets/others/apple-touch-icon.png">
