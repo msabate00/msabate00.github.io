@@ -755,11 +755,11 @@ textarea {
 /*NUEVA*/
 
 :root{
-  --main_black_color: #0f0f0f;
-  --main_black2_color: #181717;
+  --main_black_color: #202025;
+  --main_black2_color: rgb(28, 27, 29);
   --main_white_color: white;
   --main_white2_color: rgb(204, 204, 204);
-  --main-bg-color: #121212;      /* Fondo principal oscuro */
+  --main-bg-color: #202025;      /* Fondo principal oscuro */
   --secondary-bg-color: #1E1E1E; /* Tarjetas y elementos secundarios */
   --accent-color: #742acf;       /* Color de acento morado */
   --accent-color-clare: #BB86FC;       /* Color de acento morado */
