@@ -7,23 +7,26 @@ const headerHamMenuCloseBtn = document.querySelector(
 )
 const headerSmallMenuLinks = document.querySelectorAll('.header__sm-menu-link')
 
-hamMenuBtn.addEventListener('click', () => {
-  if (smallMenu.classList.contains('header__sm-menu--active')) {
-    smallMenu.classList.remove('header__sm-menu--active')
-  } else {
-    smallMenu.classList.add('header__sm-menu--active')
-  }
-  if (headerHamMenuBtn.classList.contains('d-none')) {
-    headerHamMenuBtn.classList.remove('d-none')
-    headerHamMenuCloseBtn.classList.add('d-none')
-  } else {
-    headerHamMenuBtn.classList.add('d-none')
-    headerHamMenuCloseBtn.classList.remove('d-none')
-  }
-})
+if (hamMenuBtn && smallMenu && headerHamMenuBtn && headerHamMenuCloseBtn) {
+  hamMenuBtn.addEventListener('click', () => {
+    if (smallMenu.classList.contains('header__sm-menu--active')) {
+      smallMenu.classList.remove('header__sm-menu--active')
+    } else {
+      smallMenu.classList.add('header__sm-menu--active')
+    }
+    if (headerHamMenuBtn.classList.contains('d-none')) {
+      headerHamMenuBtn.classList.remove('d-none')
+      headerHamMenuCloseBtn.classList.add('d-none')
+    } else {
+      headerHamMenuBtn.classList.add('d-none')
+      headerHamMenuCloseBtn.classList.remove('d-none')
+    }
+  })
+}
 
 for (let i = 0; i < headerSmallMenuLinks.length; i++) {
   headerSmallMenuLinks[i].addEventListener('click', () => {
+    if (!smallMenu || !headerHamMenuBtn || !headerHamMenuCloseBtn) return
     smallMenu.classList.remove('header__sm-menu--active')
     headerHamMenuBtn.classList.remove('d-none')
     headerHamMenuCloseBtn.classList.add('d-none')
@@ -33,12 +36,16 @@ for (let i = 0; i < headerSmallMenuLinks.length; i++) {
 // ---
 const headerLogoConatiner = document.querySelector('.header__logo-container')
 
-headerLogoConatiner.addEventListener('click', () => {
-  location.href = 'index.html'
-})
+if (headerLogoConatiner) {
+  headerLogoConatiner.addEventListener('click', () => {
+    location.href = 'index.html'
+  })
+}
 
+const particlesTarget = document.getElementById('particles-js')
+const canInitParticles = particlesTarget && typeof window.particlesJS === 'function'
 
-particlesJS("particles-js", {
+if (canInitParticles) particlesJS("particles-js", {
   "particles": {
     "number": {
       "value": 290,
@@ -113,16 +120,18 @@ particlesJS("particles-js", {
   "retina_detect": true
 });
 
-// Corrección manual de coordenadas con scroll (opcional pero recomendado)
-window.addEventListener('mousemove', function(e) {
-  if (window.pJSDom && window.pJSDom[0]) {
-    const pJS = window.pJSDom[0].pJS;
-    if (pJS.interactivity) {
-      pJS.interactivity.mouse.pos_x = e.clientX;
-      pJS.interactivity.mouse.pos_y = e.clientY + window.scrollY;
+// Corrección manual de coordenadas con scroll (solo si particles está activo)
+if (canInitParticles) {
+  window.addEventListener('mousemove', function(e) {
+    if (window.pJSDom && window.pJSDom[0]) {
+      const pJS = window.pJSDom[0].pJS;
+      if (pJS.interactivity) {
+        pJS.interactivity.mouse.pos_x = e.clientX;
+        pJS.interactivity.mouse.pos_y = e.clientY + window.scrollY;
+      }
     }
-  }
-});
+  });
+}
 
 
 // --- Projects access gate ---

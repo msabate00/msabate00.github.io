@@ -1277,9 +1277,95 @@ textarea {
   }
 }
 
-@media(max-width: 1024px){
+/* --- Responsive tweaks (mobile/tablet) --- */
 
+/* Skills icons: keep under control on small screens */
+.about__content-skills img {
+  width: min(500px, 100%) !important;
+  height: auto !important;
+  display: block;
 }
-@media(max-width: 767px){
-  
+
+/* Projects honeycomb: degrade to a clean grid on smaller screens */
+@media (max-width: 56.25em) { /* <= 900px */
+  .wrapper {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    max-height: none;
+    grid-gap: 1.6rem;
+    padding-bottom: 1.6rem;
+  }
+
+  .wrapper a {
+    grid-column: span 1;
+    position: relative;
+  }
+
+  .wrapper a:nth-child(7n + 1) {
+    grid-column: span 1;
+  }
+
+  .wrapper a img {
+    margin-bottom: 0;
+    clip-path: none;
+    border-radius: 12px;
+    transform: none;
+  }
+
+  .wrapper a:hover img {
+    transform: none;
+    box-shadow: none;
+  }
+
+  .wrapper a:not(.project-more):hover img {
+    filter: none;
+  }
+
+  .wrapper a .view-button {
+    display: none;
+  }
+}
+
+@media (max-width: 37.5em) { /* <= 600px */
+  .wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.2rem;
+  }
+
+  /* Hero CTAs: stack nicely */
+  .home-hero__cta {
+    margin-top: 1.5rem;
+  }
+  .home-hero__cta > a {
+    width: 100%;
+    max-width: 34rem;
+    text-align: center;
+  }
+
+  /* Reduce oversized button padding on mobile */
+  .btn--bg {
+    padding: 1.2rem 3rem;
+  }
+
+  /* Project pages spacing under fixed header */
+  .project-main-container {
+    margin: 9rem auto 4rem auto;
+    padding: 0 16px;
+  }
+
+  /* Screenshot thumbs: slightly smaller */
+  .screenshot-thumb {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@media (max-width: 26.25em) { /* <= 420px */
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .home-hero__cta > a {
+    max-width: 100%;
+  }
 }
