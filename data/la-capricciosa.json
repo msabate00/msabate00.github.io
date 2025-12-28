@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "title": "La Capricciosa | Martí Sabaté",
+    "description": "Pinball prototype focused on physics gameplay using Bullet3."
+  },
+  "content": {
+    "title": "La Capricciosa",
+    "about": [
+      "La Capricciosa is a pinball project developed for a university physics assignment.",
+      "The main focus was implementing believable pinball interactions (flippers, bumpers, ball dynamics) using the Bullet3 physics library.",
+      "It served as a practical exercise in applying physics concepts to game feel and responsiveness."
+    ],
+    "features": [
+      "Bullet3-based physics simulation for pinball gameplay",
+      "Interactive elements such as flippers and bumpers",
+      "Score-driven loop typical of classic pinball tables"
+    ],
+    "media": {
+      "type": "none",
+      "url": ""
+    },
+    "details": {
+      "role": "Producer & Lead Programmer",
+      "date": "Nov 2023",
+      "category": "CITM Physics",
+      "teamSize": "4 members",
+      "duration": "University assignment"
+    },
+    "links": {
+      "webpage": null,
+      "github": "https://github.com/Caracoles-cansados/Pinball---LaCapricciosa",
+      "download": null
+    },
+    "technologies": [
+      {
+        "name": "C++",
+        "icon": "fas fa-code"
+      },
+      {
+        "name": "Bullet3",
+        "icon": "fas fa-bullseye"
+      },
+      {
+        "name": "Physics",
+        "icon": "fas fa-atom"
+      },
+      {
+        "name": "Gameplay Tuning",
+        "icon": "fas fa-sliders-h"
+      }
+    ],
+    "screenshots": [
+      "./assets/jpeg/projectsSection/lacapricciosa.jpg"
+    ],
+    "learnings": [
+      "Applying physics concepts to interactive gameplay",
+      "Balancing simulation accuracy with fun and responsiveness",
+      "Debugging collision and stability issues"
+    ],
+    "navigation": {
+      "previous": "nxo",
+      "next": "solaris-engine"
+    }
+  }
+}

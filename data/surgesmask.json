@@ -32,9 +32,18 @@
       "download": "https://github.com/SouthWest-Studios/Suregs-Mask/releases/download/Gold/Suregs.Masks.Installer.exe"
     },
     "technologies": [
-      { "name": "C++", "icon": "fas fa-code" },
-      { "name": "Tiled", "icon": "fas fa-layer-group" },
-      { "name": "Custom Engine", "icon": "fas fa-cogs" }
+      {
+        "name": "C++",
+        "icon": "fas fa-code"
+      },
+      {
+        "name": "Tiled",
+        "icon": "fas fa-layer-group"
+      },
+      {
+        "name": "Custom Engine",
+        "icon": "fas fa-cogs"
+      }
     ],
     "screenshots": [
       "./assets/projects/suregs-mask/tree.webp",
@@ -50,7 +59,7 @@
     ],
     "navigation": {
       "previous": "w40k-tlm",
-      "next": "project-3"
+      "next": "shinobi"
     }
   }
 }

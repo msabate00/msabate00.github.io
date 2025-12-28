@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "title": "Celestial Drive | Martí Sabaté",
+    "description": "Personal rail-shooter prototype inspired by Kingdom Hearts' Gummi Ship."
+  },
+  "content": {
+    "title": "Celestial Drive",
+    "about": [
+      "Celestial Drive is a personal rail-shooter prototype inspired by the Gummi Ship segments from Kingdom Hearts.",
+      "The project focuses on building the feel of on-rails movement, shooting, and basic progression systems.",
+      "It is an unreleased prototype used to explore ideas and iterate on core mechanics."
+    ],
+    "features": [
+      "On-rails movement prototype with forward progression",
+      "Basic shooting and targeting experimentation",
+      "Prototype-level iteration focused on feel and readability"
+    ],
+    "media": {
+      "type": "none",
+      "url": ""
+    },
+    "details": {
+      "role": "Solo Developer",
+      "date": "Unreleased",
+      "category": "Personal Rail Shooter",
+      "teamSize": "1 developer",
+      "duration": "Prototype / R&D"
+    },
+    "links": {
+      "webpage": null,
+      "github": "https://github.com/msabate00/Celestial-Drive",
+      "download": null
+    },
+    "technologies": [
+      {
+        "name": "Prototyping",
+        "icon": "fas fa-flask"
+      },
+      {
+        "name": "Gameplay Programming",
+        "icon": "fas fa-code"
+      },
+      {
+        "name": "Game Design",
+        "icon": "fas fa-pencil-ruler"
+      },
+      {
+        "name": "R&D",
+        "icon": "fas fa-lightbulb"
+      }
+    ],
+    "screenshots": [
+      "./assets/jpeg/projectsSection/celestialDrive.jpg"
+    ],
+    "learnings": [
+      "Prototyping movement and camera in a rail-shooter context",
+      "Improving target readability and feedback",
+      "Iterating quickly to validate mechanics"
+    ],
+    "navigation": {
+      "previous": "through-the-depths",
+      "next": "w40k-tlm"
+    }
+  }
+}

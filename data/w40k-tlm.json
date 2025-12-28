@@ -34,18 +34,35 @@
       "download": "https://github.com/Burned-Games/W40K-TLM/releases/download/v1.0/W40K-TLM-v1.5-windows.zip"
     },
     "technologies": [
-      {"name": "SDL2", "icon": "fas fa-window-restore"},
-      {"name": "OpenGL", "icon": "fas fa-microchip"},
-      {"name": "LUA", "icon": "fas fa-code"},
-      {"name": "C++", "icon": "fas fa-code"},
-      {"name": "Blender", "icon": "fas fa-cube"},
-      {"name": "Wwise", "icon": "fas fa-music"}
+      {
+        "name": "SDL2",
+        "icon": "fas fa-window-restore"
+      },
+      {
+        "name": "OpenGL",
+        "icon": "fas fa-microchip"
+      },
+      {
+        "name": "LUA",
+        "icon": "fas fa-code"
+      },
+      {
+        "name": "C++",
+        "icon": "fas fa-code"
+      },
+      {
+        "name": "Blender",
+        "icon": "fas fa-cube"
+      },
+      {
+        "name": "Wwise",
+        "icon": "fas fa-music"
+      }
     ],
     "screenshots": [
       "./assets/projects/w40k-tlm/mainMenu.webp",
       "./assets/projects/w40k-tlm/gameplay.webp",
       "./assets/projects/w40k-tlm/onEngine.webp"
-      
     ],
     "learnings": [
       "Leadership and management of a large department",
@@ -54,8 +71,8 @@
       "Learning Lua from scratch and reinforcement in C++"
     ],
     "navigation": {
-      "previous": "surgesmask",
-      "next": "shinobi"
+      "previous": "celestial-drive",
+      "next": "surgesmask"
     }
   }
 }

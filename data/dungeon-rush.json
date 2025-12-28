@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "title": "Dungeon Rush | Martí Sabaté",
+    "description": "Early personal 3D action/RPG prototype built as a learning project."
+  },
+  "content": {
+    "title": "Dungeon Rush",
+    "about": [
+      "Dungeon Rush was my first attempt at building a 3D action/RPG-style prototype on my own.",
+      "The goal of this project was learning the fundamentals of 3D gameplay: movement, camera, basic combat, and dungeon-like progression.",
+      "It was published as an early personal prototype."
+    ],
+    "features": [
+      "3D character controller and camera experimentation",
+      "Early combat and interaction prototypes",
+      "Learning-focused iteration and rapid testing"
+    ],
+    "media": {
+      "type": "youtube",
+      "url": "wm5rNXtXSAQ"
+    },
+    "details": {
+      "role": "Solo Developer",
+      "date": "Aug 2018",
+      "category": "Personal Action/RPG Game",
+      "teamSize": "1 developer",
+      "duration": "Prototype"
+    },
+    "links": {
+      "webpage": "https://aitramkg.itch.io/dungeonrush",
+      "github": null,
+      "download": "https://aitramkg.itch.io/dungeonrush"
+    },
+    "technologies": [
+      {
+        "name": "3D Gameplay",
+        "icon": "fas fa-cube"
+      },
+      {
+        "name": "Prototyping",
+        "icon": "fas fa-flask"
+      },
+      {
+        "name": "Game Design",
+        "icon": "fas fa-pencil-ruler"
+      },
+      {
+        "name": "Windows Build",
+        "icon": "fab fa-windows"
+      }
+    ],
+    "screenshots": [
+      "./assets/jpeg/projectsSection/dungeonrush.jpg"
+    ],
+    "learnings": [
+      "First steps in 3D character and camera control",
+      "Rapid prototyping to validate ideas early",
+      "Understanding scope and iteration for solo projects"
+    ],
+    "navigation": {
+      "previous": "poncho-el-castor",
+      "next": "water-together"
+    }
+  }
+}

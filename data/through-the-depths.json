@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "title": "Through The Depths | Martí Sabaté",
+    "description": "2D platformer built without an engine using SDL2 and physics libraries."
+  },
+  "content": {
+    "title": "Through The Depths",
+    "about": [
+      "Through The Depths is a 2D platformer developed as a university project without using a game engine.",
+      "The project was built on top of SDL2 and a physics library, focusing on low-level control of gameplay, collisions, and rendering.",
+      "I was responsible for the programming side of the project, implementing gameplay and core systems."
+    ],
+    "features": [
+      "Player movement, jumping, and combat/interaction basics for a platformer loop",
+      "Physics-based collisions and responsive platforming feel",
+      "Custom gameplay systems built directly on SDL2"
+    ],
+    "media": {
+      "type": "none",
+      "url": ""
+    },
+    "details": {
+      "role": "Lead Programmer",
+      "date": "Jan 2024",
+      "category": "Platform Game",
+      "teamSize": "2 developers",
+      "duration": "Academic term"
+    },
+    "links": {
+      "webpage": null,
+      "github": "https://github.com/msabate00/Through-The-Depths",
+      "download": null
+    },
+    "technologies": [
+      {
+        "name": "C++",
+        "icon": "fas fa-code"
+      },
+      {
+        "name": "SDL2",
+        "icon": "fas fa-gamepad"
+      },
+      {
+        "name": "Physics",
+        "icon": "fas fa-atom"
+      },
+      {
+        "name": "Game Design",
+        "icon": "fas fa-pencil-ruler"
+      }
+    ],
+    "screenshots": [
+      "./assets/jpeg/projectsSection/throughthedepths.png"
+    ],
+    "learnings": [
+      "Building gameplay directly on low-level libraries (without an engine)",
+      "Tuning platformer feel through collisions and movement parameters",
+      "Structuring a small game project for maintainability"
+    ],
+    "navigation": {
+      "previous": "humble-gamble",
+      "next": "celestial-drive"
+    }
+  }
+}

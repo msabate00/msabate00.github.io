@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "title": "Boogligan | Martí Sabaté",
+    "description": "AR mobile project focused on gesture-based interaction and a 360º experience."
+  },
+  "content": {
+    "title": "Boogligan",
+    "about": [
+      "Boogligan is an augmented reality project developed as part of a university AR assignment.",
+      "The experience is designed to be played in a 360º space while interacting with virtual elements through gestures and AR gameplay.",
+      "My contributions included gameplay scripting and level functionality such as spawning systems and boss-level logic."
+    ],
+    "features": [
+      "AR 360º experience with gesture-based interaction",
+      "Gameplay systems for spawning and encounter progression",
+      "Designed for mobile AR play-space constraints"
+    ],
+    "media": {
+      "type": "youtube",
+      "url": "Sv8RlmWtlCY"
+    },
+    "details": {
+      "role": "Programmer",
+      "date": "Apr 2025",
+      "category": "CITM AR Project",
+      "teamSize": "4 developers",
+      "duration": "Academic term"
+    },
+    "links": {
+      "webpage": null,
+      "github": "https://github.com/SouthWest-Studios/South_AR_Project",
+      "download": "https://github.com/SouthWest-Studios/South_AR_Project/releases"
+    },
+    "technologies": [
+      {
+        "name": "Unity",
+        "icon": "fab fa-unity"
+      },
+      {
+        "name": "AR Foundation",
+        "icon": "fas fa-mobile-alt"
+      },
+      {
+        "name": "C#",
+        "icon": "fas fa-code"
+      },
+      {
+        "name": "Mobile AR",
+        "icon": "fas fa-camera"
+      }
+    ],
+    "screenshots": [
+      "./assets/jpeg/projectsSection/boogligan.jpg"
+    ],
+    "learnings": [
+      "Designing interactions for AR and real-world scale",
+      "Handling performance and UX constraints on mobile devices",
+      "Team collaboration on an AR-focused project"
+    ],
+    "navigation": {
+      "previous": "mans-last-duty",
+      "next": "humble-gamble"
+    }
+  }
+}

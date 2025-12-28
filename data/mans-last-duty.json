@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "title": "Man's Last Duty | Martí Sabaté",
+    "description": "A 60-second time-loop puzzle prototype made for CITM Game Jam 2025."
+  },
+  "content": {
+    "title": "Man's Last Duty",
+    "about": [
+      "Man's Last Duty is a short sci-fi puzzle experience built around a strict 60-second loop.",
+      "You play as a scientist pressured to complete a set of tests for MLD Corporation. You will fail repeatedly, but you can rewind time and use each attempt to optimize your route and decisions.",
+      "Created by SouthWest Studio during the CITM Game Jam 2025 (1 week)."
+    ],
+    "features": [
+      "60-second time loop with rewind-based iteration",
+      "Interact and grab system for solving short tasks",
+      "Minigame-style challenges inside a single run",
+      "In-game notes UI to track information between attempts"
+    ],
+    "media": {
+      "type": "youtube",
+      "url": "sAkv0YorGDo"
+    },
+    "details": {
+      "role": "Programmer",
+      "date": "Jan 2025",
+      "category": "CITM Game Jam 2025",
+      "teamSize": "5 developers",
+      "duration": "1 week"
+    },
+    "links": {
+      "webpage": "https://southwest-studio.itch.io/mans-last-duty",
+      "github": null,
+      "download": "https://southwest-studio.itch.io/mans-last-duty"
+    },
+    "technologies": [
+      {
+        "name": "Unity",
+        "icon": "fab fa-unity"
+      },
+      {
+        "name": "C#",
+        "icon": "fas fa-code"
+      },
+      {
+        "name": "Gameplay Systems",
+        "icon": "fas fa-cogs"
+      },
+      {
+        "name": "Game Jam",
+        "icon": "fas fa-stopwatch"
+      }
+    ],
+    "screenshots": [
+      "./assets/jpeg/projectsSection/mansLastDuty.jpg"
+    ],
+    "learnings": [
+      "Designing a time-loop structure that encourages iteration",
+      "Keeping UI and objectives readable under short time constraints",
+      "Coordinating feature work across a small jam team"
+    ],
+    "navigation": {
+      "previous": "solaris-engine",
+      "next": "boogligan"
+    }
+  }
+}

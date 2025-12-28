@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "title": "Solaris Engine | Martí Sabaté",
+    "description": "Custom 3D game engine built in C/C++ with SDL2 and OpenGL."
+  },
+  "content": {
+    "title": "Solaris Engine",
+    "about": [
+      "Solaris Engine is a custom 3D game engine developed as part of the \"Motors de Videojocs\" course at CITM (UPC).",
+      "It provides a component-based scene system, an editor-style UI, and an asset pipeline focused on iteration speed.",
+      "The engine was built in C/C++ (C++17) using SDL2 and OpenGL, and integrates tools such as ImGui and Assimp."
+    ],
+    "features": [
+      "Entity/component system with parent-child hierarchy management",
+      "Editor panels (Hierarchy, Inspector, Assets) with object picking",
+      "Resource management with reference counting and dedicated asset folders",
+      "FBX import pipeline (Assimp) and custom mesh format optimization",
+      "Camera controls, frustum culling, and basic debugging utilities"
+    ],
+    "media": {
+      "type": "none",
+      "url": ""
+    },
+    "details": {
+      "role": "Engine Programmer",
+      "date": "Nov 2023",
+      "category": "CITM Game Engine",
+      "teamSize": "3 developers",
+      "duration": "Academic term"
+    },
+    "links": {
+      "webpage": null,
+      "github": "https://github.com/Solaris-Group/SolarisEngine",
+      "download": "https://github.com/Solaris-Group/SolarisEngine/releases"
+    },
+    "technologies": [
+      {
+        "name": "C++17",
+        "icon": "fas fa-code"
+      },
+      {
+        "name": "SDL2",
+        "icon": "fas fa-gamepad"
+      },
+      {
+        "name": "OpenGL",
+        "icon": "fas fa-cube"
+      },
+      {
+        "name": "ImGui",
+        "icon": "fas fa-window-maximize"
+      },
+      {
+        "name": "Assimp",
+        "icon": "fas fa-file-import"
+      }
+    ],
+    "screenshots": [
+      "./assets/jpeg/projectsSection/solarisEngine.jpg"
+    ],
+    "learnings": [
+      "Designing engine architecture around iteration speed and tooling",
+      "Building an asset pipeline (import, caching, and resource lifetime)",
+      "Debugging rendering and scene issues in a custom engine",
+      "Working in a small team on a shared codebase"
+    ],
+    "navigation": {
+      "previous": "la-capricciosa",
+      "next": "mans-last-duty"
+    }
+  }
+}

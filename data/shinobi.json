@@ -33,15 +33,20 @@
       "download": "https://github.com/msabate00/NoFurry-Games/releases/download/Alpha/NoFurryGames_Shinobi_v1.1.zip"
     },
     "technologies": [
-      {"name": "C++", "icon": "fas fa-code"},
-      {"name": "SDL2", "icon": "fas fa-gamepad"}
+      {
+        "name": "C++",
+        "icon": "fas fa-code"
+      },
+      {
+        "name": "SDL2",
+        "icon": "fas fa-gamepad"
+      }
     ],
     "screenshots": [
       "./assets/projects/shinobi/firstLevel.webp",
       "./assets/projects/shinobi/bossScene.webp",
       "./assets/projects/shinobi/exampleSpriteSheet.webp",
       "./assets/projects/shinobi/secondLevelMap.webp"
-
     ],
     "learnings": [
       "First simulation of a real group project",
@@ -51,8 +56,8 @@
       "Learned how to develop a custom 2D animation system"
     ],
     "navigation": {
-      "previous": "project-0",
-      "next": "surgesmask"
+      "previous": "surgesmask",
+      "next": "incremental"
     }
   }
 }

@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "title": "BRIGHT GAME | Martí Sabaté",
+    "description": "Retro-inspired arcade shooter focused on score and survival."
+  },
+  "content": {
+    "title": "BRIGHT GAME",
+    "about": [
+      "BRIGHT GAME is a retro-inspired arcade shooter influenced by Geometry Wars and classic bullet-hell games.",
+      "The project was designed to support multiple modes (Arcade, Roguelike, Dodge/Survival, and Challenges). The public build currently includes only the Arcade mode.",
+      "This was my first fully solo 2D project, from gameplay and feel to building and shipping a Windows release."
+    ],
+    "features": [
+      "Fast-paced arcade loop built around dodging dense projectile patterns",
+      "Score-chasing gameplay with short, replayable runs",
+      "Neon/retro visual direction and responsive movement",
+      "Extensible design for additional modes (Roguelike, Dodge, Challenges)"
+    ],
+    "media": {
+      "type": "none",
+      "url": ""
+    },
+    "details": {
+      "role": "Solo Developer",
+      "date": "Oct 2020",
+      "category": "Personal Arcade Game",
+      "teamSize": "1 developer",
+      "duration": "In development"
+    },
+    "links": {
+      "webpage": "https://aitramkg.itch.io/bright-game",
+      "github": null,
+      "download": "https://aitramkg.itch.io/bright-game"
+    },
+    "technologies": [
+      {
+        "name": "Game Programming",
+        "icon": "fas fa-code"
+      },
+      {
+        "name": "Arcade Design",
+        "icon": "fas fa-bolt"
+      },
+      {
+        "name": "Gameplay Tuning",
+        "icon": "fas fa-sliders-h"
+      },
+      {
+        "name": "Windows Build",
+        "icon": "fab fa-windows"
+      }
+    ],
+    "screenshots": [
+      "./assets/jpeg/projectsSection/bright.jpg"
+    ],
+    "learnings": [
+      "Building a complete game loop as a solo developer",
+      "Tuning difficulty curves and readability in bullet-hell gameplay",
+      "Packaging and distributing builds for players"
+    ],
+    "navigation": {
+      "previous": "incremental",
+      "next": "viktor-stoneheart"
+    }
+  }
+}

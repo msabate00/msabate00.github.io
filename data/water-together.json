@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "title": "Water Together | Martí Sabaté",
+    "description": "A platformer about merging and splitting water drops, made for Brackeys Game Jam 2021.1."
+  },
+  "content": {
+    "title": "Water Together",
+    "about": [
+      "Water Together is a short platformer built around a simple rule: merge with other water drops to become bigger, stronger, and faster, so you can reach new areas.",
+      "You can also split to control multiple drops and solve traversal challenges.",
+      "Created for Brackeys Game Jam 2021.1."
+    ],
+    "features": [
+      "Core merge mechanic that changes player size and abilities",
+      "Split mechanic to control multiple drops for puzzles and traversal",
+      "Short, self-contained level progression aimed at jam scope"
+    ],
+    "media": {
+      "type": "none",
+      "url": ""
+    },
+    "details": {
+      "role": "Programmer",
+      "date": "Feb 2021",
+      "category": "Game Jam Platformer",
+      "teamSize": "2 developers",
+      "duration": "Game jam"
+    },
+    "links": {
+      "webpage": "https://aitramkg.itch.io/water-together",
+      "github": null,
+      "download": "https://aitramkg.itch.io/water-together"
+    },
+    "technologies": [
+      {
+        "name": "Game Jam",
+        "icon": "fas fa-stopwatch"
+      },
+      {
+        "name": "Gameplay Systems",
+        "icon": "fas fa-cogs"
+      },
+      {
+        "name": "Platformer Design",
+        "icon": "fas fa-running"
+      },
+      {
+        "name": "Windows Build",
+        "icon": "fab fa-windows"
+      }
+    ],
+    "screenshots": [
+      "./assets/jpeg/projectsSection/watertogheter.jpg"
+    ],
+    "learnings": [
+      "Designing a mechanic that directly drives level layout",
+      "Scope control and polish under jam constraints",
+      "Communicating game rules clearly to the player"
+    ],
+    "navigation": {
+      "previous": "dungeon-rush",
+      "next": "nxo"
+    }
+  }
+}

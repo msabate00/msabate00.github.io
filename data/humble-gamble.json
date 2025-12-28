@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "title": "Humble Gamble | Martí Sabaté",
+    "description": "VR prototype focused on interaction design and comfort."
+  },
+  "content": {
+    "title": "Humble Gamble",
+    "about": [
+      "Humble Gamble is a VR prototype developed as part of a university VR project.",
+      "The main focus was learning and applying VR interaction patterns (hands/controllers, diegetic UI, and player comfort considerations).",
+      "The project served as my first practical VR development experience in a team environment."
+    ],
+    "features": [
+      "VR interaction prototypes using motion controllers",
+      "World-space UI and feedback designed for VR readability",
+      "Comfort-oriented movement and interaction experiments"
+    ],
+    "media": {
+      "type": "youtube",
+      "url": "iMVBzIpFXTU"
+    },
+    "details": {
+      "role": "Lead Programmer & QA",
+      "date": "Jun 2025",
+      "category": "CITM VR Project",
+      "teamSize": "4 developers",
+      "duration": "Academic term"
+    },
+    "links": {
+      "webpage": null,
+      "github": "https://github.com/SouthWest-Studios/South_VR_Project",
+      "download": "https://github.com/SouthWest-Studios/South_VR_Project/releases"
+    },
+    "technologies": [
+      {
+        "name": "Unity",
+        "icon": "fab fa-unity"
+      },
+      {
+        "name": "VR",
+        "icon": "fas fa-vr-cardboard"
+      },
+      {
+        "name": "C#",
+        "icon": "fas fa-code"
+      },
+      {
+        "name": "Interaction Design",
+        "icon": "fas fa-hand-pointer"
+      }
+    ],
+    "screenshots": [
+      "./assets/jpeg/projectsSection/humblegamble.jpg"
+    ],
+    "learnings": [
+      "VR interaction patterns and comfort constraints",
+      "Diegetic UI and spatial feedback design",
+      "Testing and iterating VR experiences with users"
+    ],
+    "navigation": {
+      "previous": "boogligan",
+      "next": "through-the-depths"
+    }
+  }
+}

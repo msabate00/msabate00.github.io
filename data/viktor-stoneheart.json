@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "title": "Viktor Stoneheart | Martí Sabaté",
+    "description": "A short atmospheric first-person puzzle game made for a 1-week game jam."
+  },
+  "content": {
+    "title": "Viktor Stoneheart",
+    "about": [
+      "Viktor Stoneheart is a short first-person puzzle experience where you enter a client's dream to hunt and destroy nightmare fragments.",
+      "The playable space mirrors the client’s house, but shifted into a parallel “Dream World” with altered rules and atmosphere.",
+      "Created by SouthWest Studio during the CITM Game Jam (1 week)."
+    ],
+    "features": [
+      "First-person exploration with interactable objects and light puzzle solving",
+      "Atmospheric horror tone with a dream/parallel-world setting",
+      "Objective-driven progression: locate and destroy nightmare fragments",
+      "Compact scope and pacing designed for a jam build"
+    ],
+    "media": {
+      "type": "youtube",
+      "url": "l7UEi5V3btA"
+    },
+    "details": {
+      "role": "Lead Programmer",
+      "date": "Jan 2024",
+      "category": "CITM Game Jam 2024",
+      "teamSize": "5 developers",
+      "duration": "1 week"
+    },
+    "links": {
+      "webpage": "https://aitramkg.itch.io/viktor-stoneheart",
+      "github": null,
+      "download": "https://aitramkg.itch.io/viktor-stoneheart"
+    },
+    "technologies": [
+      {
+        "name": "Unity",
+        "icon": "fab fa-unity"
+      },
+      {
+        "name": "C#",
+        "icon": "fas fa-code"
+      },
+      {
+        "name": "First-Person",
+        "icon": "fas fa-eye"
+      },
+      {
+        "name": "Game Jam",
+        "icon": "fas fa-stopwatch"
+      }
+    ],
+    "screenshots": [
+      "./assets/jpeg/projectsSection/viktorStoneheart.jpg"
+    ],
+    "learnings": [
+      "Rapid iteration and scope control under a 1-week deadline",
+      "Designing readable objectives and progression for short experiences",
+      "Team coordination between code, art, and level design"
+    ],
+    "navigation": {
+      "previous": "bright-game",
+      "next": "poncho-el-castor"
+    }
+  }
+}

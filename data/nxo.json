@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "title": "NXO | Martí Sabaté",
+    "description": "A very early turn-based project built as a learning exercise using Windows batch scripting."
+  },
+  "content": {
+    "title": "NXO",
+    "about": [
+      "NXO is my first game project: a turn-based prototype created as a learning exercise.",
+      "I built it using a simple Windows .bat file workflow, focusing on understanding basic game structure, turns, and rules.",
+      "This project represents my earliest experimentation with making games from scratch."
+    ],
+    "features": [
+      "Turn-based loop with simple rule processing",
+      "Minimalist text/console-style structure",
+      "Built as a self-learning project"
+    ],
+    "media": {
+      "type": "none",
+      "url": ""
+    },
+    "details": {
+      "role": "Solo Developer",
+      "date": "Feb 2012",
+      "category": "Personal Turn-Based Game",
+      "teamSize": "1 developer",
+      "duration": "Learning project"
+    },
+    "links": {
+      "webpage": "https://aitramkg.itch.io/nxo",
+      "github": null,
+      "download": "https://aitramkg.itch.io/nxo"
+    },
+    "technologies": [
+      {
+        "name": "Batch Scripting",
+        "icon": "fas fa-terminal"
+      },
+      {
+        "name": "Turn-Based Design",
+        "icon": "fas fa-chess"
+      },
+      {
+        "name": "Prototyping",
+        "icon": "fas fa-flask"
+      },
+      {
+        "name": "Windows",
+        "icon": "fab fa-windows"
+      }
+    ],
+    "screenshots": [
+      "./assets/jpeg/projectsSection/nxo.jpg"
+    ],
+    "learnings": [
+      "Thinking in turns, state, and rules",
+      "Building basic game structure with minimal tools",
+      "Early lessons about iteration and debugging"
+    ],
+    "navigation": {
+      "previous": "water-together",
+      "next": "la-capricciosa"
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "title": "Incremental | Martí Sabaté",
+    "description": "Action incremental game with a skill-tree progression loop."
+  },
+  "content": {
+    "title": "Incremental",
+    "about": [
+      "Incremental is an action incremental game where you fight enemies, collect coins, and invest them into a branching skill tree.",
+      "The core loop is built around experimentation: combine upgrades, complete challenges to unlock new nodes, and gradually craft stronger builds.",
+      "Developed as a longer-term SouthWest Studio project and published on itch.io."
+    ],
+    "features": [
+      "Skill tree progression with unlockable branches nodes and synergies",
+      "Challenge system that unlocks new upgrades and rewards",
+      "Fast top-down combat loop focused on movement, timing, and build choices",
+      "Keyboard and gamepad support"
+    ],
+    "media": {
+      "type": "none",
+      "url": ""
+    },
+    "details": {
+      "role": "Gameplay / Systems Programmer",
+      "date": "Dec 2025",
+      "category": "Group Incremental Game",
+      "teamSize": "5 developers",
+      "duration": "1 month"
+    },
+    "links": {
+      "webpage": "https://southwest-studio.itch.io/incremental",
+      "github": null,
+      "download": "https://southwest-studio.itch.io/incremental"
+    },
+    "technologies": [
+      {
+        "name": "Unity",
+        "icon": "fab fa-unity"
+      },
+      {
+        "name": "C#",
+        "icon": "fas fa-code"
+      },
+      {
+        "name": "UI/UX",
+        "icon": "fas fa-sitemap"
+      },
+      {
+        "name": "Game Design",
+        "icon": "fas fa-pencil-ruler"
+      }
+    ],
+    "screenshots": [
+      "./assets/jpeg/projectsSection/incremental.png",
+      "./assets/jpeg/incremental.png"
+    ],
+    "learnings": [
+      "Designing scalable progression systems (skill trees, unlocks, challenges)",
+      "Balancing economy curves and difficulty for long-running sessions",
+      "Building modular gameplay systems to support future content",
+      "Keeping UI readable as complexity grows"
+    ],
+    "navigation": {
+      "previous": "shinobi",
+      "next": "bright-game"
+    }
+  }
+}

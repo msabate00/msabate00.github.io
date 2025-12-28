@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "title": "Poncho El Castor [Demo] | Martí Sabaté",
+    "description": "A short 3D collectible puzzle-platformer demo made in Unity."
+  },
+  "content": {
+    "title": "Poncho El Castor [Demo]",
+    "about": [
+      "Poncho El Castor is a 3D collectible adventure where you explore, solve puzzles, and gather artifacts.",
+      "After a mysterious object falls from the sky, the mayor asks Poncho to retrieve five artifacts to open its door and uncover what it is.",
+      "This was my first fully solo 3D project and was released as a Windows demo."
+    ],
+    "features": [
+      "3D puzzle-platforming with collectibles and simple objectives",
+      "Low-poly visual style and short-session pacing",
+      "Keyboard and controller support",
+      "Subtitles support"
+    ],
+    "media": {
+      "type": "youtube",
+      "url": "tvDQMz8lwQI"
+    },
+    "details": {
+      "role": "Solo Developer",
+      "date": "Jan 2020",
+      "category": "Personal 3D Platform Game",
+      "teamSize": "1 developer",
+      "duration": "Demo release"
+    },
+    "links": {
+      "webpage": "https://aitramkg.itch.io/poncho-el-castordemo",
+      "github": null,
+      "download": "https://aitramkg.itch.io/poncho-el-castordemo"
+    },
+    "technologies": [
+      {
+        "name": "Unity",
+        "icon": "fab fa-unity"
+      },
+      {
+        "name": "Blender",
+        "icon": "fas fa-cube"
+      },
+      {
+        "name": "Photoshop",
+        "icon": "fas fa-paint-brush"
+      },
+      {
+        "name": "C#",
+        "icon": "fas fa-code"
+      }
+    ],
+    "screenshots": [
+      "./assets/jpeg/projectsSection/poncho.jpg"
+    ],
+    "learnings": [
+      "End-to-end 3D production as a solo developer",
+      "Implementing collectible objectives and basic puzzle flow",
+      "Publishing a playable demo and iterating on feedback"
+    ],
+    "navigation": {
+      "previous": "viktor-stoneheart",
+      "next": "dungeon-rush"
+    }
+  }
+}
