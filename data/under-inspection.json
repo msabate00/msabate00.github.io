@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "title": "Under Inspection | Martí Sabaté",
+    "description": "Narrative-driven first-person puzzle/simulation set in a mysterious laboratory, created for the Floodlight Gaming Investigative Journalism Game Jam."
+  },
+  "content": {
+    "title": "Under Inspection",
+    "about": [
+      "You wake to the sound of a ringing phone. It’s not yours. This isn’t your home. A voice gives you a simple order: package goods, don’t complain.",
+      "Beyond the bedroom door lies a sterile, fluorescent-lit laboratory. Each day, the work grows more demanding and every task carries higher stakes — don’t mess up.",
+      "Created as a team submission for the Floodlight Gaming: Investigative Journalism Game Jam."
+    ],
+    "features": [
+      "First-person immersive gameplay in a mysterious laboratory",
+      "Task-driven \"working simulator\" loop with escalating pressure",
+      "Puzzle interactions (object handling, left/right click mechanics)",
+      "Narrative progression through new lab areas and decisions",
+      "Tense, unsettling atmosphere"
+    ],
+    "media": {
+      "type": "none",
+      "url": ""
+    },
+    "details": {
+      "role": "Programmer (Team Project)",
+      "date": "2025",
+      "category": "Game Jam / Puzzle / Simulation",
+      "teamSize": "7",
+      "duration": "Game Jam (approx. 4 weeks)"
+    },
+    "links": {
+      "webpage": "https://southwest-studio.itch.io/under-inspection",
+      "github": "https://github.com/SouthWest-Studios/ProjectGameJamFloodlight2025",
+      "download": "https://southwest-studio.itch.io/under-inspection"
+    },
+    "technologies": [
+      {
+        "name": "Unity",
+        "icon": "fab fa-unity"
+      },
+      {
+        "name": "C#",
+        "icon": "fas fa-code"
+      },
+      {
+        "name": "Game Jam",
+        "icon": "fas fa-clock"
+      },
+      {
+        "name": "Team Collaboration",
+        "icon": "fas fa-users"
+      }
+    ],
+    "screenshots": [
+      "https://img.itch.zone/aW1hZ2UvMzg1NDYwMi8yMzA0Mzg3Ny5wbmc%3D/347x500/1KBJYk.png",
+      "https://img.itch.zone/aW1hZ2UvMzg1NDYwMi8yMzA0Mzg3OC5wbmc%3D/347x500/aB8GUU.png",
+      "https://img.itch.zone/aW1hZ2UvMzg1NDYwMi8yMzA0Mzg3OS5wbmc%3D/347x500/Thx4YL.png",
+      "https://img.itch.zone/aW1hZ2UvMzg1NDYwMi8yMzA0Mzg4MC5wbmc%3D/347x500/0FEhCF.png"
+    ],
+    "learnings": [
+      "Designing short, readable gameplay tasks with escalating constraints",
+      "Rapid iteration and scope control under a fixed deadline",
+      "Coordinating a multi-discipline team with clear handoffs and integration"
+    ],
+    "navigation": {
+      "previous": null,
+      "next": null
+    }
+  }
+}

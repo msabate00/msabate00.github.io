@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "title": "Sprite Zone Editor – Bézier & Polygon Toolkit | Martí Sabaté",
+    "description": "Unity Editor tool to create and manage sprite-based zones using polygons or Bézier paths, with optional runtime baking and debug visualization."
+  },
+  "content": {
+    "title": "Sprite Zone Editor – Bézier & Polygon Toolkit",
+    "about": [
+      "A Unity EditorWindow (UI Toolkit) to create and manage sprite-based zones using polygons or Bézier paths.",
+      "Includes optional runtime support to bake paths to polygons and visualize zones for debugging."
+    ],
+    "features": [
+      "Pen/Move/Add/Remove tools for drawing and editing zones",
+      "Polygon tools (Move Poly, Eraser)",
+      "Generators: Hexagon, Circle, AutoBody Pen, Full Body generation",
+      "AutoBody: generate zones from Sprite Physics Shape",
+      "Bézier path flattening with tolerance control",
+      "Runtime baking to polygons + optional debug viewer",
+      "Assembly definitions for Runtime/Editor separation",
+      "Clipper2Lib integration for polygon boolean operations"
+    ],
+    "media": {
+      "type": "youtube",
+      "url": "zdhw_iIpoOc"
+    },
+    "details": {
+      "role": "Author / Solo Developer",
+      "date": "2025",
+      "category": "Unity Editor Tool / Plugin",
+      "teamSize": "1",
+      "duration": "Ongoing"
+    },
+    "links": {
+      "webpage": null,
+      "github": null,
+      "download": null
+    },
+    "technologies": [
+      {
+        "name": "Unity",
+        "icon": "fab fa-unity"
+      },
+      {
+        "name": "C#",
+        "icon": "fas fa-code"
+      },
+      {
+        "name": "UI Toolkit",
+        "icon": "fas fa-window-maximize"
+      },
+      {
+        "name": "Clipper2Lib",
+        "icon": "fas fa-vector-square"
+      },
+      {
+        "name": "2D Sprite Workflow",
+        "icon": "fas fa-images"
+      }
+    ],
+    "screenshots": [],
+    "learnings": [
+      "Building production editor tooling with UI Toolkit (UXML/USS)",
+      "Robust geometry workflows: Bézier flattening, polygon ops, and tolerance handling",
+      "Clean Runtime/Editor boundaries via assembly definitions"
+    ],
+    "navigation": {
+      "previous": null,
+      "next": null
+    }
+  }
+}
