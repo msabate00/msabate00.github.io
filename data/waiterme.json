@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "title": "WaiterMe | Martí Sabaté",
+    "description": "Kotlin/Android project focused on mobile development practice."
+  },
+  "content": {
+    "title": "WaiterMe",
+    "about": [
+      "CFGS Android project developed in Kotlin as a hands-on way to practice mobile app development.",
+      "The repository is public, but it doesn't include a detailed public project description, so this page uses a minimal summary."
+    ],
+    "features": [
+      "Kotlin-based Android codebase.",
+      "Gradle-based project structure (Android app module).",
+      "Mobile UI prototyping and app architecture practice."
+    ],
+    "media": {
+      "type": "none",
+      "url": ""
+    },
+    "details": {
+      "role": "Developer",
+      "date": "May 2022",
+      "category": "Mobile App",
+      "teamSize": "Solo",
+      "duration": "2 months"
+    },
+    "links": {
+      "webpage": "",
+      "github": "https://github.com/msabate00/WaiterMe",
+      "download": ""
+    },
+    "technologies": [
+      {
+        "icon": "fab fa-android",
+        "name": "Android"
+      },
+      {
+        "icon": "fas fa-code",
+        "name": "Kotlin"
+      },
+      {
+        "icon": "fas fa-cogs",
+        "name": "Gradle"
+      }
+    ],
+    "screenshots": [],
+    "learnings": [
+      "Android project setup and Gradle configuration.",
+      "Kotlin fundamentals applied to a real project structure.",
+      "Iterating on mobile UI/UX in a native app context."
+    ],
+    "navigation": {
+      "previous": null,
+      "next": null
+    }
+  }
+}

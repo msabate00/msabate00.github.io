@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "title": "DuelCremental | Martí Sabaté",
+    "description": "Competitive online action prototype in Unity focused on TCP/UDP networking and authoritative world-state replication."
+  },
+  "content": {
+    "title": "DuelCremental",
+    "about": [
+      "DuelCremental is a small-scale competitive online prototype where players control simple avatars that move, dash, and shoot to defeat opponents while avoiding map hazards.",
+      "The main goal of the project is to build a stable, scalable client–server networking foundation using TCP for lobby/reliable events and UDP for real-time replication."
+    ],
+    "features": [
+      "Authoritative client–server architecture",
+      "Lobby flow with rooms and text chat (TCP)",
+      "World-state replication over UDP with interpolation",
+      "Playable combat loop: health, bullets, spike balls, and a timed storm hazard",
+      "Round-based progression with a pool of upgrades and post-round selection",
+      "Supports 1v1 matches with up to 4 connected clients"
+    ],
+    "media": {
+      "type": "none",
+      "url": ""
+    },
+    "details": {
+      "role": "Project Lead & Lead Developer (Gameplay, Systems, Networking, UI)",
+      "date": "December 2025",
+      "category": "Competitive Online Action Prototype",
+      "teamSize": "6 members",
+      "duration": "University assignment"
+    },
+    "links": {
+      "webpage": "",
+      "github": "https://github.com/SouthWest-Studios/IsoCombat",
+      "download": "https://github.com/SouthWest-Studios/IsoCombat/releases/latest"
+    },
+    "technologies": [
+      {
+        "name": "Unity",
+        "icon": "fab fa-unity"
+      },
+      {
+        "name": "C#",
+        "icon": "fas fa-code"
+      },
+      {
+        "name": "TCP/UDP",
+        "icon": "fas fa-network-wired"
+      },
+      {
+        "name": "Authoritative Server",
+        "icon": "fas fa-server"
+      },
+      {
+        "name": "JSON Messaging",
+        "icon": "fas fa-file-code"
+      }
+    ],
+    "screenshots": [],
+    "learnings": [
+      "Designing an authoritative multiplayer architecture",
+      "Building TCP (lobby/reliable events) and UDP (real-time replication) layers",
+      "Defining and serializing replication packets for multiple entity types",
+      "Integrating networking with gameplay systems and UI flow",
+      "Profiling and reducing packet spam for frequently spawned entities"
+    ],
+    "navigation": {
+      "previous": "w40k-tlm",
+      "next": "solaris-engine"
+    }
+  }
+}

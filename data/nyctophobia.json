@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "title": "Nyctophobia | Martí Sabaté",
+    "description": "A horror 3D environment and level-design project inspired by Outlast, built in Unity as a team assignment."
+  },
+  "content": {
+    "title": "Nyctophobia",
+    "about": [
+      "Nyctophobia is a horror-themed 3D environment project inspired by Outlast. The level recreates and connects four key areas (dormitories, main hall, chapel, and kitchen/dining) to form a coherent exploration route with progression gates (keys/cards).",
+      "Built as a team project for the 3D Scenes course at CITM (UPC). My contributions focused on the main hall layout, night-vision implementation, interaction scripting (doors, pickups, sprinklers), and VFX particles (sparks and dust)."
+    ],
+    "features": [
+      "Interconnected level layout with exploration routes and progression gates",
+      "Lighting study with contrast and focal points to guide player navigation",
+      "Night-vision effect implemented with custom shaders and toggling controls",
+      "Interactable doors, pickups, and scripted sprinklers to change the environment",
+      "Custom particles (sparks and dust) and performance work (Occlusion Culling)"
+    ],
+    "media": {
+      "type": "youtube",
+      "url": "PEkqaOChL0E"
+    },
+    "details": {
+      "role": "Level Design / VFX & Gameplay Scripting",
+      "date": "Spring 2024",
+      "category": "3D Environment / Level Design",
+      "teamSize": "4",
+      "duration": "Course assignment"
+    },
+    "links": {
+      "webpage": "",
+      "github": "",
+      "download": ""
+    },
+    "technologies": [
+      {
+        "name": "Unity",
+        "icon": "fab fa-unity"
+      },
+      {
+        "name": "C#",
+        "icon": "fas fa-code"
+      },
+      {
+        "name": "Shaders",
+        "icon": "fas fa-magic"
+      },
+      {
+        "name": "Particle System",
+        "icon": "fas fa-bahai"
+      },
+      {
+        "name": "Occlusion Culling",
+        "icon": "fas fa-tachometer-alt"
+      }
+    ],
+    "screenshots": [],
+    "learnings": [
+      "Using lighting and landmarks to support player orientation in a horror space",
+      "Implementing reusable interaction scripts (doors, pickups, triggers) for level logic",
+      "Creating readable VFX with particles and shaders while keeping performance under control"
+    ],
+    "navigation": {
+      "previous": null,
+      "next": null
+    }
+  }
+}

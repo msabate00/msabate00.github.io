@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "title": "Enumera't | Martí Sabaté",
+    "description": "Educational math adventure game in Catalan (prototype)."
+  },
+  "content": {
+    "title": "Enumera't",
+    "about": [
+      "Enumera’t is an educational game in Catalan that turns basic math into an interactive adventure, aimed at kids aged 6–8.",
+      "Players explore a world of living numbers and solve quick arithmetic challenges through drag-and-drop interactions, repetition, and positive reinforcement."
+    ],
+    "features": [
+      "Playful learning focus: math through gameplay and emotion (not rote exercises).",
+      "Story, characters, and references inspired by Catalan imagery and culture.",
+      "Core mechanic: drag numbers to complete operations with unknowns.",
+      "Adaptive difficulty and replayability with randomly generated operations.",
+      "Guided story missions plus an Infinite Mode for unlimited mental-math practice."
+    ],
+    "media": {
+      "type": "youtube",
+      "url": "fzndeFmkuE8"
+    },
+    "details": {
+      "role": "Systems Programmer",
+      "date": "2025",
+      "category": "Educational Game Prototype",
+      "teamSize": "5 members",
+      "duration": "Prototype"
+    },
+    "links": {
+      "webpage": "https://southwest-studio.itch.io/enumerat",
+      "github": "",
+      "download": "https://southwest-studio.itch.io/enumerat"
+    },
+    "technologies": [
+      {
+        "icon": "fab fa-unity",
+        "name": "Unity"
+      },
+      {
+        "icon": "fas fa-code",
+        "name": "C#"
+      },
+      {
+        "icon": "fab fa-html5",
+        "name": "HTML5 (Web build)"
+      }
+    ],
+    "screenshots": [],
+    "learnings": [
+      "Designing drag-and-drop interactions that work well on both mouse and touch.",
+      "Generating arithmetic exercises procedurally to increase replayability.",
+      "Balancing feedback loops for learning (gentle failure, clear positive reinforcement)."
+    ],
+    "navigation": {
+      "previous": null,
+      "next": null
+    }
+  }
+}

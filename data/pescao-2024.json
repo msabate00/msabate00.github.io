@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "title": "Pescao (2024) | Martí Sabaté",
+    "description": "A student short film that blends mystery, action, and slasher elements, produced for an audiovisual storytelling course."
+  },
+  "content": {
+    "title": "Pescao (2024)",
+    "about": [
+      "Pescao is a short film created for the Audiovisual Narrative course at CITM (UPC). A group of students travel to a lake to shoot a class film, but their new teammate (Lin) starts acting strangely — escalating the story from mystery to action and finally a slasher.",
+      "The project involved moodboards, multiple script iterations, on-location shooting (15:00–23:00) near Terrassa, and a collaborative edit where each team member edited specific scenes before the final assembly."
+    ],
+    "features": [
+      "Genre progression: mystery → action → slasher",
+      "On-location production with a small crew and practical props",
+      "Montage editing techniques (collage, sound montage, continuous action, movement)",
+      "Collaborative post-production workflow (scene-by-scene editing)"
+    ],
+    "media": {
+      "type": "youtube",
+      "url": "BeBHU9nlPFc"
+    },
+    "details": {
+      "role": "Co-writer / Actor / Editor",
+      "date": "2024",
+      "category": "Short Film",
+      "teamSize": "5",
+      "duration": "Course project"
+    },
+    "links": {
+      "webpage": "",
+      "github": "",
+      "download": ""
+    },
+    "technologies": [
+      {
+        "name": "Screenwriting",
+        "icon": "fas fa-pen-nib"
+      },
+      {
+        "name": "Cinematography",
+        "icon": "fas fa-video"
+      },
+      {
+        "name": "Editing (Premiere Pro)",
+        "icon": "fas fa-cut"
+      },
+      {
+        "name": "Sound & Montage",
+        "icon": "fas fa-volume-up"
+      }
+    ],
+    "screenshots": [],
+    "learnings": [
+      "Planning production with limited time and resources (location, props, schedule)",
+      "Coordinating a collaborative edit pipeline and maintaining continuity between scenes",
+      "Building tension through pacing, sound, and POV choices"
+    ],
+    "navigation": {
+      "previous": null,
+      "next": null
+    }
+  }
+}

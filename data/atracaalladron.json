@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "title": "Atraca al ladrón | Martí Sabaté",
+    "description": "A deduction tabletop game where players try to discover each other's PIN codes using truth/lie cards."
+  },
+  "content": {
+    "title": "Atraca al ladrón",
+    "about": [
+      "Atraca al ladrón is a tabletop deduction game for 2–4 players. The goal is to discover every other player's secret PIN before they discover yours.",
+      "Each round, players simultaneously play two truth cards and one lie card (with optional one-time tokens to flip a card or to mark an opponent's lie), then take turns guessing a player's PIN and receive feedback on correct digits and positions."
+    ],
+    "features": [
+      "PIN deduction phase with Mastermind-style feedback (correct digits / correct positions)",
+      "Simultaneous card selection (2 truths + 1 lie) to generate information and bluffing",
+      "One-time tokens: flip a card (NO) and mark an opponent's lie",
+      "Wildcard cards to state special facts about your PIN",
+      "Designed for ages 6+ and quick rounds"
+    ],
+    "media": {
+      "type": "youtube",
+      "url": "6c1wM-bCQFA"
+    },
+    "details": {
+      "role": "Game Designer / Co-creator",
+      "date": "Winter 2023",
+      "category": "Tabletop Game",
+      "teamSize": "4",
+      "duration": "Course assignment"
+    },
+    "links": {
+      "webpage": "https://drive.google.com/file/d/1XJUrCWT1vqsPCKPchJkdS3cKBPxo7IYM/view?usp=sharing",
+      "github": "",
+      "download": ""
+    },
+    "technologies": [
+      {
+        "name": "Game Design",
+        "icon": "fas fa-brain"
+      },
+      {
+        "name": "Paper Prototyping",
+        "icon": "fas fa-clone"
+      },
+      {
+        "name": "Playtesting",
+        "icon": "fas fa-users"
+      },
+      {
+        "name": "Tabletop Systems",
+        "icon": "fas fa-dice"
+      }
+    ],
+    "screenshots": [],
+    "learnings": [
+      "Balancing hidden-information games so players always feel they have actionable clues",
+      "Designing bluffing tools that create tension without stalling the game",
+      "Iterating rules for clarity and pacing through playtests"
+    ],
+    "navigation": {
+      "previous": null,
+      "next": null
+    }
+  }
+}
