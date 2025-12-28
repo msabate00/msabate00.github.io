@@ -44,7 +44,11 @@
         "name": "Gradle"
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "./assets/projects/waiterMe/1.jpg",
+      "./assets/projects/waiterMe/2.jpg",
+      "./assets/projects/waiterMe/3.jpg"
+    ],
     "learnings": [
       "Android project setup and Gradle configuration.",
       "Kotlin fundamentals applied to a real project structure.",
