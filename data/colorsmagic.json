@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "title": "Colors Magic Expanded",
+    "description": "Expanded version of ColorsMagic with extra content and improvements."
+  },
+  "content": {
+    "title": "Colors Magic Expanded",
+    "about": [
+      "Expanded version of ColorsMagic to explore additional content and mechanics.",
+      "Academic team project with focus on iteration, integration, and user experience.",
+      "Contributed to gameplay improvements and project stability."
+    ],
+    "features": [
+      "Expanded content / mechanics iteration",
+      "UI/UX refinements for mobile",
+      "Integration of assets and settings",
+      "Gameplay balancing tweaks",
+      "Bug fixing and integration"
+    ],
+    "media": {
+      "type": "none",
+      "url": ""
+    },
+    "details": {
+      "role": "Unity Developer (Contributor)",
+      "date": "2024",
+      "category": "Mobile Game (Unity)",
+      "teamSize": "Team project",
+      "duration": "Academic project"
+    },
+    "links": {
+      "webpage": null,
+      "github": "https://github.com/CITM-MOBILE-DEVICES-TERRASSA/Colors-Magic-Expanded",
+      "download": null
+    },
+    "technologies": [
+      {
+        "name": "Unity",
+        "icon": "fab fa-unity"
+      },
+      {
+        "name": "C#",
+        "icon": "fas fa-code"
+      },
+      {
+        "name": "Android",
+        "icon": "fab fa-android"
+      },
+      {
+        "name": "Git",
+        "icon": "fab fa-github"
+      }
+    ],
+    "screenshots": [],
+    "learnings": [
+      "Mobile-first input & UI constraints (touch targets, readability, aspect ratios).",
+      "Iterating quickly with Git branching, code reviews, and frequent integration.",
+      "Balancing performance and visuals for mobile builds (profiling, lightweight effects)."
+    ],
+    "navigation": {
+      "previous": null,
+      "next": null
+    }
+  }
+}

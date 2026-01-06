@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "title": "Fiki Deluxe",
+    "description": "Enhanced version of Fiki focused on polish and additional features."
+  },
+  "content": {
+    "title": "Fiki Deluxe",
+    "about": [
+      "Enhanced version of the Fiki mobile project with improvements on UX and game feel.",
+      "Team workflow with frequent merges and integration milestones.",
+      "Contributed to features and overall project stability."
+    ],
+    "features": [
+      "Gameplay and UX improvements",
+      "Performance-oriented adjustments for mobile",
+      "UI flow refinements",
+      "Asset integration and configuration",
+      "Stability fixes"
+    ],
+    "media": {
+      "type": "none",
+      "url": ""
+    },
+    "details": {
+      "role": "Unity Developer (Contributor)",
+      "date": "Nov 2024",
+      "category": "Mobile Game (Unity)",
+      "teamSize": "Team project",
+      "duration": "Academic project"
+    },
+    "links": {
+      "webpage": null,
+      "github": "https://github.com/CITM-MOBILE-DEVICES-TERRASSA/Fiki-Deluxe",
+      "download": null
+    },
+    "technologies": [
+      {
+        "name": "Unity",
+        "icon": "fab fa-unity"
+      },
+      {
+        "name": "C#",
+        "icon": "fas fa-code"
+      },
+      {
+        "name": "Android",
+        "icon": "fab fa-android"
+      },
+      {
+        "name": "Git",
+        "icon": "fab fa-github"
+      }
+    ],
+    "screenshots": [],
+    "learnings": [
+      "Mobile-first input & UI constraints (touch targets, readability, aspect ratios).",
+      "Iterating quickly with Git branching, code reviews, and frequent integration.",
+      "Balancing performance and visuals for mobile builds (profiling, lightweight effects)."
+    ],
+    "navigation": {
+      "previous": null,
+      "next": null
+    }
+  }
+}

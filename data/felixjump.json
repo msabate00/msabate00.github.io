@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "title": "FelixJump DX",
+    "description": "Deluxe iteration/fork of FelixJump with extended content and polish."
+  },
+  "content": {
+    "title": "FelixJump DX",
+    "about": [
+      "Deluxe iteration of the FelixJump mobile project, based on the original team repository.",
+      "Aimed at expanding content and polishing the user experience for mobile.",
+      "Worked on gameplay improvements and integration tasks across the project."
+    ],
+    "features": [
+      "Extended/polished gameplay content",
+      "Improved mobile UI/UX flows",
+      "Refactoring and cleanup for maintainability",
+      "Additional balancing and fixes",
+      "Continuous integration via Git"
+    ],
+    "media": {
+      "type": "none",
+      "url": ""
+    },
+    "details": {
+      "role": "Unity Developer (Contributor)",
+      "date": "Dec 2024",
+      "category": "Mobile Game (Unity)",
+      "teamSize": "Team project",
+      "duration": "Academic project"
+    },
+    "links": {
+      "webpage": null,
+      "github": "https://github.com/CITM-MOBILE-DEVICES-TERRASSA/FelixJump-DX",
+      "download": null
+    },
+    "technologies": [
+      {
+        "name": "Unity",
+        "icon": "fab fa-unity"
+      },
+      {
+        "name": "C#",
+        "icon": "fas fa-code"
+      },
+      {
+        "name": "Android",
+        "icon": "fab fa-android"
+      },
+      {
+        "name": "Git",
+        "icon": "fab fa-github"
+      }
+    ],
+    "screenshots": [],
+    "learnings": [
+      "Mobile-first input & UI constraints (touch targets, readability, aspect ratios).",
+      "Iterating quickly with Git branching, code reviews, and frequent integration.",
+      "Balancing performance and visuals for mobile builds (profiling, lightweight effects)."
+    ],
+    "navigation": {
+      "previous": null,
+      "next": null
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "title": "Jumping-Jack Deluxe",
+    "description": "Enhanced version of Jumping-Jack with added polish and improvements."
+  },
+  "content": {
+    "title": "Jumping-Jack Deluxe",
+    "about": [
+      "Deluxe iteration of Jumping-Jack focused on polish, stability, and improvements.",
+      "Team workflow with frequent merges and iterative testing on mobile builds.",
+      "Contributed to gameplay, UI, and bug fixing."
+    ],
+    "features": [
+      "Polish pass on game feel and UI",
+      "Iteration on mobile usability",
+      "Refactoring and integration work",
+      "Bug fixing and QA passes",
+      "Android build validation"
+    ],
+    "media": {
+      "type": "none",
+      "url": ""
+    },
+    "details": {
+      "role": "Unity Developer (Contributor)",
+      "date": "2024",
+      "category": "Mobile Game (Unity)",
+      "teamSize": "Team project",
+      "duration": "Academic project"
+    },
+    "links": {
+      "webpage": null,
+      "github": "https://github.com/CITM-MOBILE-DEVICES-TERRASSA/Jumping-Jack-Deluxe",
+      "download": null
+    },
+    "technologies": [
+      {
+        "name": "Unity",
+        "icon": "fab fa-unity"
+      },
+      {
+        "name": "C#",
+        "icon": "fas fa-code"
+      },
+      {
+        "name": "Android",
+        "icon": "fab fa-android"
+      },
+      {
+        "name": "Git",
+        "icon": "fab fa-github"
+      }
+    ],
+    "screenshots": [],
+    "learnings": [
+      "Mobile-first input & UI constraints (touch targets, readability, aspect ratios).",
+      "Iterating quickly with Git branching, code reviews, and frequent integration.",
+      "Balancing performance and visuals for mobile builds (profiling, lightweight effects)."
+    ],
+    "navigation": {
+      "previous": null,
+      "next": null
+    }
+  }
+}
