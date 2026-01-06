@@ -48,14 +48,16 @@
         "icon": "fas fa-paint-brush"
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "./assets/projects/arkanoid/arkanoid.png"
+    ],
     "learnings": [
       "Reinforced arcade game feel fundamentals (paddle control, pacing, and feedback).",
       "Practiced shipping a simple, complete mobile gameplay loop with clean project structure."
     ],
     "navigation": {
-      "previous": null,
-      "next": null
+      "previous": "solaris-engine",
+      "next": "jumping-jack"
     }
   }
 }

@@ -18,8 +18,8 @@
       "Android build validation"
     ],
     "media": {
-      "type": "none",
-      "url": ""
+      "type": "youtube",
+      "url": "ut1q8BQoPBg"
     },
     "details": {
       "role": "Unity Developer (Contributor)",
@@ -51,15 +51,20 @@
         "icon": "fab fa-github"
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "./assets/projects/jumpingjack/jumpingjack_s1.png",
+      "./assets/projects/jumpingjack/jumpingjack_s2.png",
+      "./assets/projects/jumpingjack/jumpingjack_s3.png",
+      "./assets/projects/jumpingjack/jumpingjack_s4.png"
+    ],
     "learnings": [
       "Mobile-first input & UI constraints (touch targets, readability, aspect ratios).",
       "Iterating quickly with Git branching, code reviews, and frequent integration.",
       "Balancing performance and visuals for mobile builds (profiling, lightweight effects)."
     ],
     "navigation": {
-      "previous": null,
-      "next": null
+      "previous": "arkanoid-msm",
+      "next": "colorsmagic"
     }
   }
 }
