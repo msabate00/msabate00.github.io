@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "title": "Kobold Delvers | Martí Sabaté",
+    "description": "An in-development C++/OpenGL project currently represented publicly through the SandForge engine repository."
+  },
+  "content": {
+    "title": "Kobold Delvers",
+    "about": [
+      "This project is currently under development. The page will be updated with more information later."
+    ],
+    "features": [
+    ],
+    "media": {
+      "type": "none",
+      "url": ""
+    },
+    "details": {
+      "role": "Solo Developer (Programming, Art, Design, Audio)",
+      "date": "In development",
+      "category": "Custom C++ / OpenGL Project",
+      "teamSize": "1",
+      "duration": "9 months"
+    },
+    "links": {
+      "webpage": "",
+      "github": "https://github.com/msabate00/Kobold-Delvers",
+      "download": null
+    },
+    "technologies": [
+      {
+        "name": "C++17",
+        "icon": "fas fa-code"
+      },
+      {
+        "name": "OpenGL 3.3",
+        "icon": "fas fa-cube"
+      },
+      {
+        "name": "GLFW",
+        "icon": "fas fa-window-maximize"
+      },
+      {
+        "name": "GLAD",
+        "icon": "fas fa-microchip"
+      },
+      {
+        "name": "miniaudio",
+        "icon": "fas fa-volume-up"
+      },
+      {
+        "name": "CMake",
+        "icon": "fas fa-cogs"
+      }
+    ],
+    "screenshots": [],
+    "learnings": [
+    ],
+    "navigation": {
+      "previous": null,
+      "next": null
+    }
+  }
+}
