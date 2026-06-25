@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "title": "Sand Forge Engine | Martí Sabaté",
+    "description": "Custom C++ and OpenGL engine created to power Kobold Delvers and real-time cellular-automata gameplay."
+  },
+  "content": {
+    "title": "Sand Forge Engine",
+    "about": [
+      "Sand Forge Engine is the custom engine developed to power Kobold Delvers. It was built in C++ and OpenGL with the goal of supporting a real-time cellular-automata world, fast rendering, and a lightweight gameplay layer tailored to the needs of the project.",
+      "The engine acts as the technical base of the game: it manages the simulation, rendering, input, UI, audio, entities, and the transformations between screen, world, chunk, and cell coordinates.",
+      "A major part of the work focused on keeping the simulation and rendering efficient. The world is treated as a grid of cells, but only the necessary regions are updated or uploaded to the GPU when possible, reducing unnecessary work and making the system more scalable."
+    ],
+    "features": [
+      "Real-time cellular-automata simulation designed for interactive materials",
+      "Custom OpenGL renderer for drawing the cell world and game entities",
+      "Partial GPU texture updates to avoid resending the full world every frame",
+      "Coordinate conversion layer between screen, world, chunks, and cells",
+      "Entity system used for gameplay objects such as kobolds, player tools, hazards, and interactable elements",
+      "Input layer for keyboard, mouse, camera movement, and gameplay actions",
+      "UI system used for menus, level flow, controls, credits, sandbox tools, and player feedback",
+      "Audio system based on miniaudio for music and sound effects",
+      "CMake-based project structure prepared for development builds and Steam distribution"
+    ],
+    "media": {
+      "type": "none",
+      "url": ""
+    },
+    "details": {
+      "role": "Engine Programmer / Solo Developer",
+      "date": "2026",
+      "category": "Custom Game Engine / Cellular-Automata Framework",
+      "teamSize": "1",
+      "duration": "9 months"
+    },
+    "links": {
+      "webpage": null,
+      "github": "https://github.com/msabate00/SandForge-Engine",
+      "download": null
+    },
+    "technologies": [
+      {
+        "name": "C++17",
+        "icon": "fas fa-code"
+      },
+      {
+        "name": "OpenGL 3.3",
+        "icon": "fas fa-cube"
+      },
+      {
+        "name": "GLSL",
+        "icon": "fas fa-fill-drip"
+      },
+      {
+        "name": "GLFW",
+        "icon": "fas fa-window-maximize"
+      },
+      {
+        "name": "GLAD",
+        "icon": "fas fa-microchip"
+      },
+      {
+        "name": "CMake",
+        "icon": "fas fa-cogs"
+      },
+      {
+        "name": "miniaudio",
+        "icon": "fas fa-volume-up"
+      },
+      {
+        "name": "Cellular Automata",
+        "icon": "fas fa-th"
+      }
+    ],
+    "screenshots": [],
+    "learnings": [
+      "Building a specialized engine around the constraints of a single game idea",
+      "Structuring a simulation-heavy project so the world, renderer, entities, and UI remain separated but connected",
+      "Improving performance by avoiding unnecessary full-world GPU uploads",
+      "Designing coordinate transformations robust enough for editing, simulation, rendering, and player interaction",
+      "Understanding the trade-off between engine flexibility and the simplicity needed to finish a complete game"
+    ],
+    "navigation": {
+      "previous": "kobold-delvers",
+      "next": "solaris-engine"
+    }
+  }
+}

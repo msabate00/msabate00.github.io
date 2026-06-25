@@ -1,28 +1,38 @@
 {
   "meta": {
     "title": "Kobold Delvers | Martí Sabaté",
-    "description": "An in-development C++/OpenGL project currently represented publicly through the SandForge engine repository."
+    "description": "Puzzle/sandbox game built in C++ and OpenGL with a custom cellular-automata engine."
   },
   "content": {
     "title": "Kobold Delvers",
     "about": [
-      "This project is currently under development. The page will be updated with more information later."
+      "Kobold Delvers is my final degree project: a 2D puzzle/sandbox game built from scratch with a custom C++ and OpenGL engine.",
+      "The game combines the group-management spirit of Lemmings with a dynamic cellular-automata world inspired by games such as Noita. Instead of relying on a commercial engine, the project focuses on a lightweight technical foundation designed around the exact needs of the game.",
+      "The player guides a group of kobolds through interactive levels where materials, terrain, hazards, tools, and objectives are all connected through the underlying world simulation. The project also includes a sandbox mode used to test materials, interactions, and emergent situations."
     ],
     "features": [
+      "Custom C++/OpenGL game built without a commercial engine",
+      "Cellular-automata world simulation with interactive materials",
+      "Kobold-based puzzle gameplay focused on guiding, protecting, and using the group efficiently",
+      "Handmade levels with objectives, restrictions, and star-based completion goals",
+      "Sandbox mode for testing materials, simulation behavior, and creative interactions",
+      "Custom rendering, input, UI, audio, and entity systems developed specifically for the project",
+      "Steamworks integration with achievements and Steam-ready build pipeline",
+      "Original pixel-art assets, interface elements, music, and sound effects"
     ],
     "media": {
-      "type": "none",
-      "url": ""
+      "type": "youtube",
+      "url": "79_EPi8t_Pc"
     },
     "details": {
-      "role": "Solo Developer (Programming, Art, Design, Audio)",
-      "date": "In development",
-      "category": "Custom C++ / OpenGL Project",
+      "role": "Solo Developer (Programming, Design, Art, Audio, Steam Integration)",
+      "date": "2026",
+      "category": "Final Degree Project / Puzzle Sandbox Game",
       "teamSize": "1",
-      "duration": "9 months"
+      "duration": "6 months"
     },
     "links": {
-      "webpage": "",
+      "webpage": "https://store.steampowered.com/app/4701700/Kobold_Delvers/",
       "github": "https://github.com/msabate00/Kobold-Delvers",
       "download": null
     },
@@ -36,6 +46,10 @@
         "icon": "fas fa-cube"
       },
       {
+        "name": "GLSL",
+        "icon": "fas fa-fill-drip"
+      },
+      {
         "name": "GLFW",
         "icon": "fas fa-window-maximize"
       },
@@ -44,20 +58,35 @@
         "icon": "fas fa-microchip"
       },
       {
+        "name": "CMake",
+        "icon": "fas fa-cogs"
+      },
+      {
         "name": "miniaudio",
         "icon": "fas fa-volume-up"
       },
       {
-        "name": "CMake",
-        "icon": "fas fa-cogs"
+        "name": "Steamworks",
+        "icon": "fab fa-steam"
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "./assets/projects/kobold-delvers/main-logo.webp",
+      "./assets/projects/kobold-delvers/screenshot-1.webp",
+      "./assets/projects/kobold-delvers/screenshot-2.webp",
+      "./assets/projects/kobold-delvers/screenshot-3.webp",
+      "./assets/projects/kobold-delvers/screenshot-4.webp"
+    ],
     "learnings": [
+      "Designing a complete game around a custom engine instead of adapting the idea to an existing one",
+      "Optimizing a cellular-automata simulation so it can support gameplay instead of being only a technical demo",
+      "Connecting low-level systems such as rendering, input, audio, UI, entities, and coordinate transformations into one playable project",
+      "Preparing a game for Steam, including achievements, application configuration, and build-upload workflow",
+      "Managing the full scope of a solo project: code, design, art, audio, testing, documentation, and presentation"
     ],
     "navigation": {
-      "previous": null,
-      "next": null
+      "previous": "sprite-zone-editor",
+      "next": "sand-forge-engine"
     }
   }
 }
