@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "title": "Shodōe | Martí Sabaté",
+    "description": "First-person roguelike deckbuilder in Unity where cards are geometric cuts used to sever yokai anatomy."
+  },
+  "content": {
+    "title": "Shodōe",
+    "about": [
+      "Shodōe is a dark first-person roguelike deckbuilder set in a surreal feudal-Japan-inspired world filled with yokai.",
+      "The core mechanic turns cards into physical cutting patterns: instead of dealing abstract damage, players place geometric shapes over an enemy and use them to sever limbs, isolate vital parts, and solve each combat as an anatomical puzzle.",
+      "Developed by SouthWest Studio as a CITM pre-incubator beta prototype, focused on validating the tension, discovery, and precision of its card-cutting combat loop."
+    ],
+    "features": [
+      "Tactical turn-based combat built around cards, ink management, and precise geometric cuts",
+      "Enemy anatomy system where severing limbs, revealing weak points, and isolating hearts determines the outcome of combat",
+      "Branching roguelike map with combat rooms, shops, sacrifice altars, fusion altars, upgrade rooms, and a boss encounter",
+      "Card effects such as Fantasmal, Reveal, and Combustion, plus upgrade, fusion, sacrifice, and death-card progression systems",
+      "Rail-based first-person exploration with camera transitions for combat, shops, altars, and path selection",
+      "Diegetic UI, tutorial flow, dialogue systems, bestiary/settings panels, and extensive polish for the beta release"
+    ],
+    "media": {
+      "type": "youtube",
+      "url": "w1ma-B03H20"
+    },
+    "details": {
+      "role": "Lead Code / Gameplay & Systems Programmer",
+      "date": "June 2026",
+      "category": "First-Person Roguelike Deckbuilder",
+      "teamSize": "8 members",
+      "duration": "CITM pre-incubator prototype"
+    },
+    "links": {
+      "webpage": "https://southwest-studio.itch.io/shodoe",
+      "github": "",
+      "download": "https://southwest-studio.itch.io/shodoe"
+    },
+    "technologies": [
+      {
+        "name": "Unity",
+        "icon": "fab fa-unity"
+      },
+      {
+        "name": "C#",
+        "icon": "fas fa-code"
+      },
+      {
+        "name": "DOTween",
+        "icon": "fas fa-magic"
+      },
+      {
+        "name": "URP",
+        "icon": "fas fa-lightbulb"
+      },
+      {
+        "name": "Shaders",
+        "icon": "fas fa-fill-drip"
+      },
+      {
+        "name": "Procedural Generation",
+        "icon": "fas fa-route"
+      }
+    ],
+    "screenshots": [
+      "./assets/projects/shodoe/logo.webp",
+      "./assets/projects/shodoe/screenshot-1.webp",
+      "./assets/projects/shodoe/screenshot-2.webp",
+      "./assets/projects/shodoe/screenshot-3.webp",
+      "./assets/projects/shodoe/screenshot-4.webp",
+      "./assets/projects/shodoe/screenshot-5.webp"
+    ],
+    "learnings": [
+      "Designing combat systems where spatial precision and enemy anatomy replace traditional damage numbers",
+      "Building procedural map generation with constrained branching, room weights, and route validation",
+      "Connecting logical map nodes to first-person rail movement, room spawning, corridors, and camera transitions",
+      "Integrating many interconnected card systems: effects, fusion, upgrades, sacrifice, shop generation, and death-card persistence",
+      "Polishing a beta prototype through UI/settings work, tutorials, dialogue flow, boss fixes, build stability, and release preparation"
+    ],
+    "navigation": {
+      "previous": "under-inspection",
+      "next": null
+    }
+  }
+}
