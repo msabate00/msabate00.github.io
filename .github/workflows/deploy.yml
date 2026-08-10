@@ -1,0 +1,60 @@
+name: Deploy martisabate.dev
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: martisabate-dev-production
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    name: Deploy to cPanel
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Prepare production files
+        shell: bash
+        run: |
+          mkdir -p deploy
+
+          rsync -a ./ deploy/ \
+            --exclude='.git/' \
+            --exclude='.github/' \
+            --exclude='deploy/' \
+            --exclude='node_modules/' \
+            --exclude='.env' \
+            --exclude='README.md' \
+            --exclude='package.json' \
+            --exclude='package-lock.json' \
+            --exclude='sass/'
+
+          # Keep the existing GitHub Pages source untouched, but make all
+          # absolute portfolio links point to the production domain.
+          grep -RIlZ 'https://msabate00.github.io' deploy \
+            | xargs -0 -r sed -i 's#https://msabate00\.github\.io#https://martisabate.dev#g'
+
+      - name: Deploy by FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.4.0
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: ./deploy/
+          server-dir: ${{ secrets.FTP_TARGET }}
+          dangerous-clean-slate: false
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/.github/**
+            **/.env
